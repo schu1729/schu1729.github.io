@@ -1,0 +1,76 @@
+\documentclass[12pt]{article}
+
+\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{float}
+\theoremstyle{plain}     %------- 'regular' theorem types
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lemma}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{example}[thm]{Example}
+\newtheorem{exer}[thm]{Exercise}
+\newtheorem{define}[thm]{Definition}
+\usepackage[top=2cm, left=2cm, right=2cm]{geometry} 
+\usepackage{parskip}
+\setlength{\parindent}{0in}
+\usepackage{floatflt}
+\usepackage{multicol}
+\usepackage{tabu}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+	urlcolor=blue}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\large
+%subject
+City Semester  \hspace{8cm} Name:\makebox[6cm]{\hrulefill}
+\\
+%specific topic
+Problem Set \#6\\
+\normalsize 
+%\emph{Complete all work on a separate sheet of paper with exercises clearly labeled and all reasoning and work given.}\\[.5cm]
+\emph{Show all work for full credit.}\\
+\begin{enumerate}
+	\item Generate the first 5 terms of each of the following sequences.
+		\begin{enumerate}
+			\item $a_n= (-1)^n 2n^2$\\[2cm]
+			\item $b_n= 3n-1$\\[2cm]
+			\item $c_n= 3\left(-\dfrac{1}{2}\right)^n$\\[2cm]
+			\item $d_n= d_{n-1}^2-1$ and $d_1=2$\\[2cm]
+		\end{enumerate}
+\item Given an arithmetic sequence that increases by 4 each term, and starts at -5, find the 100th term of this sequence.\\[3cm]
+\item Given a geometric sequence with ratio 1/3 and first term 81, find the 10th term of this sequence.\\[3cm]
+\item Evaluate the following series.
+\begin{multicols}{2}
+	\begin{enumerate}
+		\item $\sum\limits_{n=1}^{50} (3n+1)$\\[5.5cm]
+		\item $\sum\limits_{n=1}^{20}2\left(\dfrac{3}{2}\right)^{n-1}$\\[5cm]
+		\item $\sum\limits_{n=1}^{20}3\left(\dfrac{3}{4}\right)^{n-1}$\\[5cm]
+		\item $\sum\limits_{n=1}^\infty 2\left(\dfrac{1}{3}\right)^{n-1}$\\[5cm]
+		\item $\sum\limits_{n=1}^\infty 2\left(-\dfrac{1}{5}\right)^{n-1}$\\[5cm]
+		\item $\sum\limits_{n=0}^\infty \left(\dfrac{4}{5}\right)^n$\\[5cm]
+		
+	\end{enumerate}
+\end{multicols}
+\newpage
+\item Use the properties of logs to rewrite each of these expression in terms of $x$ and $y$ where $x=\log(A)$ and $y=\log(B)$.
+	\begin{enumerate}
+		\item $\log(A/B)$\\[1cm]
+		\item $\log(\sqrt{A}/B)$\\[1cm]
+		\item $\log(A^3B^5)$\\[1cm]
+		\item $\log(2\sqrt{A^3}/B^5)$\\[1cm]
+		
+	\end{enumerate}
+\item The doubling time of a population of gnats is 15 hours. Assuming the population can be modeled exponentially give the model of the populations of gnats if you know at time 7 hours there were 120 gnats.\\[4cm]
+
+\item The half life of caffeine in the bloodstream is 4 hours. Assume the caffeine decays exponentially. If I drink a cup of coffee every 6 hours for the next 2 weeks approximately how much caffeine is in my bloodstream during that second week?
+	
+\end{enumerate}
+	
+\end{document} 

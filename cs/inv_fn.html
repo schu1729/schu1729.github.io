@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Inverse Functions</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/ico" href="icons/favicon.ico">
+	<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+
+	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="scripts/cs.js"></script>
+</head>
+
+<body>
+<h2 class="section">Inverse Functions</h2>
+<p>A function $f:X \to Y$ maps elements in the set $X$ to elements in the set $Y$ so that each $x \in X$ gets sent to at most one element in $Y$. A function $f$ is 1-to-1 if for every possible element $y$ in the set $Y$ there is only one $x$ that maps to it (ie. $f(x)=y$).
+	<div class ="ex">
+		<img class="ex" src="icons/gears3.svg">
+		Give an example of a function that is 1-to-1. Give an example of a function that is <i>not</i> 1-to-1. Explain.
+	</div>
+	<button class="hint" id="one">Check</button></div>
+	<div class="ans" id="one">
+		$f(x)=2x$ is 1-to-1. We know this since the line is always increasing at rate of 2 units $y$ per unit $x$, hence each $y$ can be associated to one and only one $x$. $h(x)=x^2$ is not 1-to-1 since both 2 and -2 are sent to 4.
+	</div>
+<p>If we take a moment to make a table of values for the two exponentials $f(x)=2^x$ and $g(x)=10^x$ we can see that both of these functions are always increasing, and most likely are 1-to-1. 
+
+<div id="footer">
+	<div class="flower">k</div>
+	<a href="index.html">Table of Contents</a><a href="ps.html">Problem Sets/Handouts</a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+\documentclass[12pt]{article}
+
+\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{float}
+\theoremstyle{plain}     %------- 'regular' theorem types
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lemma}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{example}[thm]{Example}
+\newtheorem{exer}[thm]{Exercise}
+\newtheorem{define}[thm]{Definition}
+\usepackage[top=2cm, left=2cm, right=2cm]{geometry} 
+\usepackage{parskip}
+\setlength{\parindent}{0in}
+\usepackage{floatflt}
+\usepackage{multicol}
+\usepackage{tabu}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+	urlcolor=blue}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\large
+%subject
+City Semester  \hspace{8cm} Name:\makebox[6cm]{\hrulefill}
+\\
+%specific topic
+Measuring Diversity\\
+\normalsize 
+%\emph{Complete all work on a separate sheet of paper with exercises clearly labeled and all reasoning and work given.}\\[.5cm]
+%\emph{Show all work for full credit.}\\
+\section*{Three measures}
+The 	Shannon Index (H) is calculated as $$H=\exp\left(-\sum\limits_{i=1} ^s p_i \ln(p_i)\right)$$.\\
+The Simpson Index (D) is calculated as $$D=\frac{1}{\sum\limits_{i=1}^s p_i^2}$$
+where $s$ is the number of different species and $p_i$ is the relative frequency of the $i$th species, or $\dfrac{n_i}{N}$ with $n_i$ being the number of the $i$th species and $N$ being the total number of organisms.
+The previous two measures are often used to determine species diversity in a given community. We will examine how they differ from each other by looking at some data.\\[.5cm]
+It is also sometimes useful to measure if two communities are similar to one another. 
+Soresson's Coefficient (CC) is calculated as $$CC=\frac{2C}{S_1 + S_2}$$
+where $C$ is the number of species in common and $S_1$ and $S_2$ are the number of species in each community.
+\section*{examples}
+{\renewcommand{\arraystretch}{1.5}%
+\begin{tabular}{l|c|c|c|c|c|c}
+Species & number of individuals ($n_i$) & rel. freq. ($n_i/N=p_i$) & $p_i^2$ & $p_i \ln p_i$\\
+\hline
+ Grasshopper green & 6 & $6/27=0.\overline{2}$ & 0.049 & 	-0.334\\
+ \hline
+ Grasshopper brown & 5 &&&\\
+	\hline
+ Large blue butterfly & 1 &&&\\
+\hline 
+ Small blue butterfly & 3 &&&\\
+\hline 
+ Red and blue beetle & 12 &&&\\
+
+\end{tabular}
+\begin{enumerate}
+	\item Complete the table.
+	\item Calculate $H$ and $D$.
+	\item What are the values of $H$ and $D$ if there only one species is collected?
+	\item What are the values of $H$ and $D$ if there are five examples of five species are collected for a total of 25 organisms.
+	
+\end{enumerate}
+	\begin{tabular}{l|c|c|c|c|c|c}
+Species & number of individuals ($n_i$) & rel. freq. ($n_i/N=p_i$) & $p_i^2$ & $p_i \ln p_i$\\
+\hline
+ Black Wasp &12 &  & & \\
+ \hline
+ Purple Wasp & 21 &&&\\
+	\hline
+ Bee & 5 &&&\\
+\hline 
+ Green Grasshopper & 25 &&&\\
+\hline 
+ Large Blue & 17 &&&\\
+
+\end{tabular}
+\begin{enumerate}
+	\item Complete Table.
+	\item Calculate $H$ and $D$.
+	\item Which of the two communities is more diverse?
+	\item How similar are the two communities?
+\end{enumerate}
+\end{document} 

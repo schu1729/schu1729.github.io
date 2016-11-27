@@ -1,0 +1,90 @@
+\documentclass[12pt]{article}
+
+\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{float}
+\theoremstyle{plain}     %------- 'regular' theorem types
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lemma}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{example}[thm]{Example}
+\newtheorem{exer}[thm]{Exercise}
+\newtheorem{define}[thm]{Definition}
+\usepackage[top=2cm, left=2cm, right=2cm]{geometry} 
+\usepackage{parskip}
+\setlength{\parindent}{0in}
+\usepackage{floatflt}
+\usepackage{multicol}
+\usepackage{tabu}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+	urlcolor=blue}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\large
+%subject
+City Semester  \hspace{8cm} Name:\makebox[6cm]{\hrulefill}
+\\
+%specific topic
+Using Logs and Exponentials\\
+\normalsize 
+%\emph{Complete all work on a separate sheet of paper with exercises clearly labeled and all reasoning and work given.}\\[.5cm]
+\emph{Show all work for full credit.}\\[.5cm]
+Part I: Exponential Phenomena
+\begin{enumerate}
+	\item $^{11}$C is a radioisotope commonly used in PET (positron emission tomography) scans. It has a half-life of 20.334 minutes and is produced by cyclotron.
+		\begin{enumerate}
+			\item Give the equation that describes the decay of $^{11}$C both with base 1/2 and base $e$.\\
+			\item If someone is dosed with 5 micrograms of $^{11}$C, how much is left after an hour and a half?\\
+			\item How long after the initial dosage is there less than 0.1 micrograms left?\\[.5cm]
+		\end{enumerate}
+	\item You have a sample of radioactive substance that you suspect is $^{99\textnormal{m}}$Tc, which is another radioisotope used in medical imaging. One step in confirming your guess is to check whether its half-life matches with the known half-life of $^{99\textnormal{m}}$Tc. You start with 75 grams of the substance and after 2 hours you measure that you have 59.53 grams. What is the half-life of the substance? Does it match?\\[.5cm]
+	\item When taking a hot pie out of an oven, you can describe how the temperature of the pie changes with respect to time. The difference between the temperature, $T$, and the ambient temperature, $T_a$, is proportional to an exponential ($y=e^{kt}$).
+		\begin{enumerate}
+			\item If $y$ is proportional to the square of $x$ then we can write $y=Ax^2$ where $A$ is the constant of proportionality. Write out the equation implied by the difference between the temperature, $T$, and the ambient temperature, $T_a$, is proportional to an exponential ($y=e^{kt}$), using $A$ as a constant of proportionality.\\
+			\item We can solve for $A$ by letting $t=0$ correspond to $T=T_0$, the initial temperature of our pie. What is $A$ in terms of $T_0$ and $T_a$?\\
+			\item If it is a comfortable 70$^\circ$F in your house and your apple pie comes out of the oven at 202$^\circ$F, we can find the constant $k$ that corresponds to our specific apple pie. Perhaps it will be a good model for all apple pies in the future. So when we take another temperature measurement 45 minutes later it is 110$^\circ$F. What is $k$?\\
+			\item Now we have our model of cooling for apple pie, or at least this specific recipe for apple pie. We think the ideal temperature for pie should be around 140$^\circ$F, so it contrasts nicely with the ice cream on top. How long should we wait to have our pie after it comes out of the oven?\\[.5cm]
+		\end{enumerate}
+	\item If the population of rabbits on bunny island is 100, and we assume the population grows exponentially with a doubling time of 8 months, what is the equation base $e$ that models the growth of the rabbit population (ie. $P=Ae^{rt}$)? What is $r$? It is sometimes called the Malthusian parameter. After how many months will the bunny population reach 123,456 bunnies?\\[.5cm]
+	\item We actually know that bunny island has limited resources since it is an island. So a more realistic model of the rabbit population is given by the logistic curve: $P(t)=\dfrac{L}{1+\left(\frac{L-P_0}{P_0}\right)e^{-rt}}$, where $L$ is the carrying capacity of the environment, $P_0$ is the initial population and $r$ the Malthusian parameter is generally taken to be positive. 
+		\begin{enumerate}
+			\item If there are currently 100 rabbits on bunny island, the carrying capacity of the island is 1000 rabbits, and $r=0.1$, how many months will it take the population to reach 850 rabbits?\\
+			\item There is another island a few miles from bunny island. In our attempt to improve upon the paradise that is bunny island we bring 5 rabbits of a different species to this new island. After 30 months we record the population to be 580 rabbits.  Assuming the new island has the same carrying capacity as the original bunny island what is $r$ for this new species of rabbit? When will the population reach 850 rabbits?\\[.5cm]
+		\end{enumerate}
+
+\end{enumerate}
+Part II: Phenomena Measured Logarithmically
+\begin{enumerate}
+	\item The human ear can detect an enormous range in sound intensities, $I$, spanning a ratio of $10^{12}$. To accommodate this range we measure sound level $\beta=10\log\left(\dfrac{I}{I_0}\right)$, where $I_0$ is a standard reference sound intensity of $10^{-12}$ W/m$^2$. $I_0$ was chosen as it is near the quietest detectable sound intensity. Thus $\beta =40$ corresponds to a sound intensity $10^4$ times the reference sound $I_0$.
+		\begin{enumerate}
+			\item Some ear plugs claim to be able to reduce the sound level by 20dB. What is the ratio of the sound intensity heard by someone wearing the earplugs to the actual intensity of the sound?
+			\item A normal conversation over 3 feet is around 60dB.  A jet engine 100 feet away has sound level 140dB. What is the ratio of their respective sound intensities, or how much more powerful is the jet engine sound compared to regular conversation?\\[.5cm]
+			
+		\end{enumerate}
+	
+	\item The Richter scale is a logarithmic scale (base 10), which defines the magnitude of an earthquake as: $M= \log(A/A_0)$ where $A$ is the amplitude of the seismic wave and $A_0$ is an arbitrary small amplitude.
+		\begin{enumerate}
+			\item An increase in 1.0 on the Richter scale corresponds to an amplitude how many times larger?
+			\item By what factor is an 8.0 magnitude earthquake's seismic waves larger than a 6.5 magnitude earthquake?
+			\item An increase in 1.0 on the Richter scale corresponds to 33.6 times more energy released. How many times more energy is released for an 8.0 magnitude earthquake than a 6.5 magnitude earthquake?\\[.5cm]
+		\end{enumerate}
+	
+	\item pH is a measure of the concentration of hydrogen ions in a solution. pH $=-\log[\textnormal{H}^+]$. Similarly pOH $=-\log[\textnormal{OH}^-]$ and pH + pOH = 14 because $[\textnormal{H}^+][\textnormal{OH}^-]=1\times 10^{-14}$.
+		\begin{enumerate}
+			\item Explain why pH + pOH = 14 by taking logs of both sides of the equation, $[\textnormal{H}^+][\textnormal{OH}^-]=1\times 10^{-14}$, and simplifying.
+			\item What is the pH of a strong acid with $[\textnormal{H}^+]=0.0005$?
+			\item Egg whites are alkaline with a pH around 8.2. What is the hydrogen ion concentration?\\[.5cm]
+		\end{enumerate}
+	
+	
+%	\item We can use logarithms to measure the amount of information sent by transmitting a sequence of symbols.
+\end{enumerate}
+	
+\end{document} 

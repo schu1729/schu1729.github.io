@@ -1,0 +1,143 @@
+
+/*
+<div>Icon made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+*/
+@font-face {
+		font-family: "Oldnews";
+		src: url("../fonts/OldNewspaperTypes.ttf");
+}
+
+@font-face {
+		font-family: "LibertineD";
+		src: url("../fonts/LinLibertine_DRah.ttf");
+}
+@font-face {
+		font-family: "LibertineIt";
+		src: url("../fonts/LinLibertine_RIah.ttf");
+}
+@font-face {
+		font-family: "Flower";
+		src: url("../fonts/WWFloralCorner.ttf");
+}
+
+html{
+	overflow-y: scroll;
+	-webkit-font-smoothing: antialiased;
+}
+body{
+	font-family: "LibertineD";
+	font-size: 18px;
+	max-width: 900px;
+	word-spacing: 0.08em;
+	margin: 0 auto;
+}
+div.main{
+	max-width: 800px;
+	font-size: 18px;
+	margin: 0 auto;
+
+}
+li.unit{
+	font-family: "Oldnews";
+	font-size: 22px;
+
+}
+.section{
+	font-family: "Oldnews";
+}
+.chap>a{
+	border-bottom-style: dotted;
+	border-bottom-color: navy;
+	border-bottom-width: 1px;
+	margin-bottom: 0px;
+	color: navy;
+	padding-bottom:0px;
+}
+a{
+	text-decoration: none;
+}
+div.def_head{
+	width: 225px;
+	font-family: Garamond;
+	font-weight: bold;
+	font-size: 20px;
+	border-bottom-style: dotted;
+	border-right-style:dotted;
+	border-color:navy;
+	border-width: 2px;
+	border-radius: 2px;
+}
+p.def{
+	margin-top:1px;
+	margin-left:50px;
+	margin-right:50px;
+}
+div.ex {
+	font-family: "LibertineD";
+	margin-bottom: 10px;
+	margin-top: 10px;
+	
+	
+
+}
+img.ex {
+	float:left;
+	margin-right: 7px;
+	width: 20px;
+	height: 20px;
+}
+.hint{
+	background-color: navy;
+	border-radius: 8px;
+	opacity: .5;
+	color: white;
+	border: 0px;
+	margin: 0px;
+	outline: none;
+}
+div.ans{
+	padding: 5px;
+	border-style: dotted;
+	border-color: navy;
+	border-radius: 5px;
+	border-width: 2px;
+	display: none;
+}
+ol.ex{
+	margin-left: 7px;
+}
+
+
+div#footer{
+	color: navy;
+	width: 900px;
+	margin-top:50px;
+	padding-top:25px;
+	border-top-color: navy;
+	border-top-style: double;
+	border-top-width: 2px;
+	margin-bottom: 50px;
+	padding-bottom:50px;
+}
+div#footer>a{
+	margin-right: 10px;
+	padding-right: 10px;
+
+	
+}
+div.flower{
+	font-family: "Flower";
+	font-size: 50px;
+	margin-left:450px;
+	
+
+}
+.header{
+	margin-left:0px;
+}
+.carousel-inner > .item >img,
+.carousel-inner > .item > a > img{
+	margin: auto;
+	padding: 20px;
+	height: 600px;
+}

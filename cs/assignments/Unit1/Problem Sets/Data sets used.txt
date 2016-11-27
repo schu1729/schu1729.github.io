@@ -1,0 +1,21 @@
+Data sets used:
+
+1-1
+
+1-2
+Late to work
+SAT scores
+US Health Ins cover
+
+
+1-3
+Mlb salaries
+
+1-4
+NYC Regents Grad
+Charter School 2013
+Pop by county
+
+1-5
+2010 Midsize Car...
+Astronomy Test 1, 2

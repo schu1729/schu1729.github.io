@@ -1,0 +1,118 @@
+\documentclass[12pt]{article}
+
+\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{float}
+\theoremstyle{plain}     %------- 'regular' theorem types
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lemma}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{example}[thm]{Example}
+\newtheorem{exer}[thm]{Exercise}
+\newtheorem{define}[thm]{Definition}
+\usepackage[top=2cm, left=2cm, right=2cm]{geometry} 
+\usepackage{parskip}
+\setlength{\parindent}{0in}
+\usepackage{floatflt}
+\usepackage{multicol}
+\usepackage{tabu}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+	urlcolor=blue}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\large
+%subject
+City Semester  \hspace{8cm} Name:\makebox[6cm]{\hrulefill}
+\\
+%specific topic
+Semester Review\\
+\normalsize 
+%\emph{Complete all work on a separate sheet of paper with exercises clearly labeled and all reasoning and work given.}\\[.5cm]
+\emph{Show all work for full credit.}
+\section{Descriptive Statistics}
+\begin{enumerate}
+\item Given the data: 1,3,4,4,6,8,12,13,20. 
+	\begin{enumerate}
+		\item Give the five numbers summary and a sketch of a box plot that describes this data.
+		\item Give the mean and the standard deviation of the data set.
+		\item What number(s) give a description of the center of the data? How does a skew data set affect these measures?
+		\item What number(s) give a description of the spread of the data? How does a skew data set affect these measures?
+	\end{enumerate}
+	\item Draw a symmetric distribution and a skew left distribution the same median. Where are the means of each distribution?
+	\item What is the purpose of generating a scatterplot?
+	\item Given a bivariate data set you generate a least squares regression line $\hat{y}=4x+3$.
+		\begin{enumerate}
+			\item What $y$ value is predicted for an $x$ value of 10?
+			\item If one of the data points is $(4,20)$, what is the residual at $x=4$?
+			\item What is the purpose of looking at the residual plot of a least squares regression line?
+		\end{enumerate}
+		\item Is it believable that there is a positive correlation between number hours spent per week playing video games and SAT math scores? Explain.
+		\item When generating a least squares regression line, what does the $r$ value tell you? what about $r^2$?
+		
+\end{enumerate}
+\section{Exponentials and Logs}
+\begin{enumerate}
+	\item When looking at data how can you distinguish linear data from exponential data?
+	\item If a population of moles is growing at 7\% a year give a function expressing the population in terms of $t$ measured in years.
+	\item Give a sketch of the following functions, clearly marking at least one point, and any asymptotes.
+		\begin{enumerate}
+			\item $f(x)=2^{-x}$
+			\item $g(x)=5e^x$
+			\item $h(x)=-\dfrac{1}{3}^x$
+		\end{enumerate}
+	\item Let $f(x)=2^x-4$.
+		\begin{enumerate}
+			\item What is the range of $f$?
+			\item What is the domain of $f$?
+			\item Give the equation of the asymptote?
+		\end{enumerate}
+	\item The half-life of a drug in blood stream is 10 hours. If you take a 100mg dose at noon, how much is left over in your bloodstream at midnight?
+	\item Evaluate the following expression without a calculator.
+		\begin{enumerate}
+			\item $\log_2 32$
+			\item $\log 1000$
+			\item $\ln \sqrt{e^2}$
+			\item $\log \dfrac{1}{100}$
+		\end{enumerate}
+	\item Give a sketch of both $f(x)=e^x$ and $g(x)=\ln x$ on the same axes. This illustrates that $f$ and $g$ have what geometric relation to one another?
+	\item Given $f(x)=\log (x-2)$
+		\begin{enumerate}
+			\item What is the domain of $f$?
+			\item What is the range of $f$?
+			\item Give the equation of any asymptotes.
+		\end{enumerate}
+	\item If a population of 200 buffalo is growing by 5\% each year, when will the population reach 1200 buffalo?
+\end{enumerate}
+\section{Sequences and Series}
+Review your test.
+\newpage
+
+
+\section{Combinatorics}
+\begin{enumerate}
+	\item Simplify the following expressions involving factorials without a calculator.
+		\begin{multicols}{2}
+		\begin{enumerate}
+			\item $\dfrac{10!}{8!}$\\
+			\item $2!3!$\\
+			\item $(2\cdot 3)!$\\
+			\item $3!+4!$\\
+			\item $(3+4)!$\\
+			\item $\dfrac{n!}{(n+1)!}$\\
+			\item $\dfrac{n!}{2(n-1)!}$\\
+		\end{enumerate}
+		\end{multicols}
+		\item What errors do parts b-e in the previous problem warn against?
+		\item You select a password consisting of 4 different letters or 4 different digits, how many different passwords are possible?\\
+		\item You have 7 books. You want to put 5 of them on the shelf. How many different arrangements can be made?
+		\item 8 people meet at a party. Each pair of people shakes hands, how many handshakes were there?
+		\item You have 3 red, 3 blue and 2 yellow flags. You can send messages by placing the 8 flags in sequence. Each different sequence is a different message. How many different messages can you send?
+\end{enumerate}
+\end{document} 

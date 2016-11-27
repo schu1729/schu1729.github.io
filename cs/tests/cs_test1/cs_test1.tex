@@ -1,0 +1,93 @@
+\documentclass[12pt]{article}
+
+\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{float}
+\theoremstyle{plain}     %------- 'regular' theorem types
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lemma}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{example}[thm]{Example}
+\newtheorem{exer}[thm]{Exercise}
+\newtheorem{define}[thm]{Definition}
+\usepackage[top=2cm, left=2cm, right=2cm]{geometry} 
+\usepackage{parskip}
+\setlength{\parindent}{0in}
+\usepackage{floatflt}
+\usepackage{multicol}
+\usepackage{tabu}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+	urlcolor=blue}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\large
+%subject
+City Semester  \hspace{8cm} Name:\makebox[6cm]{\hrulefill}
+\\
+%specific topic
+Take Home Quiz/Test\\
+\normalsize 
+%\emph{Complete all work on a separate sheet of paper with exercises clearly labeled and all reasoning and work given.}\\[.5cm]
+\emph{Show all work for full credit.}\\
+\begin{enumerate}
+	\item Please write out the following statement and sign your name to it as testament to its truth. `I have worked on this assignment for at most 75 minutes and I have neither given nor received any unauthorized help on this work'\\[2cm]
+	\item Identify the following variables as categorical or numerical:
+		\begin{enumerate}
+			\item Number of students in a class of 35 that turn in a paper before the due date\\
+			\item Amount of fluid ounces dispensed by a machine used to fill soda bottles\\
+			\item Gender of the next baby born at a particular hospital\\
+			\item State of birth for someone born in the U.S.	\\
+		\end{enumerate}
+	\item \includegraphics[scale=.1]{fathom.png}Use the data collection for problem 3 to answer the following questions.
+		\begin{enumerate}
+			\item Construct a dotplot in fathom of the 14 observations of number of reported violent crimes reported in 2005. Which schools stand out from the others?\\[1.5cm]
+			
+			\item It may be a better measure to find out the number of violent crimes per 1000 students as the schools have very different enrollments. Create a new column by taking number of reported violent crimes, dividing by enrollment, and multiplying by 1000. Make a new dotplot of this measure. Do the same schools stand out as in part a? Explain.\\[1.5cm]
+\newpage
+			
+			\item Based upon parts a and b, write a few sentences commenting on reported violent crime at Florida universities and colleges in 2005.\\[4cm]
+		\end{enumerate}
+	
+		\item The amount of aluminum contamination (in ppm) in plastic was determined for a sample of 26 plastic specimens resulting in the following data:
+		
+			\begin{tabular}{c c c c c c c c c c}
+				30 & 30 & 60 & 63 & 70 & 79 & 87 & 90 &101\\ 102 & 115 & 118 & 119 & 119 & 120 & 125 & 140 & 145\\ 172 & 182 & 183 & 191 & 222 & 244 & 291 & 511
+			\end{tabular}
+		\begin{enumerate}
+			\item Construct a boxplot that shows outliers. Sketch the boxplot here, labeling important points.\\[2cm]
+			\item Explain how the outliers were determined, and comment on the interesting features of the boxplot.\\[4cm]
+		\end{enumerate}
+		
+		\item \includegraphics[scale=.1]{fathom.png}Use the data collection for problem 5 to answer the following questions.
+		\begin{enumerate}
+			\item For the data set that gives the percentage of students at each school who have received all required immunizations, calculate the five number summary, $\overline{X}$ and $\sigma$.\\[1cm]
+		\newpage
+			\item Knowing that to preserve `herd immunity' requires a vaccination rate of at least 94\% for measles, which statistic would be more headline grabbing reporting: the median or the mean? Which statistic would be a more accurate measure of the center of the distribution? Explain.\\[4cm]
+			\item Is this distribution symmetric, skew left, or skew right? Explain.\\[2cm]
+			
+		\end{enumerate}
+		\item Answer the following given the data set $\{1,1,2,3,3,4,5,6,20\}$.
+			\begin{enumerate}
+				\item For the given data set find $\overline{X}$ and the median. Show any relevant calculations.\\[1cm]
+				\item For the given data set find the IQR and the sample standard deviation. Show any relevant calculations\\[1cm]
+				\item Explain the role of outliers in deciding which is a better measure of spread: the IQR or the standard deviation for this data set.
+			\end{enumerate}
+			
+		\newpage
+		\item \includegraphics[scale=.1]{fathom.png}Use the data collection for question 7 to answer the following questions.
+			\begin{enumerate}
+				\item Generate a scatterplot of the data. Choose your $x$-axis data set wisely. Describe the major features of the scatterplot.\\[4cm]
+				\item Generate the least squares regression line. What is its equation? Is this line a good fit for the data? What is your evidence?\\[4cm]
+				\item Show (write out) the calculation of the residual for the least squares regression line for the year 2008.\\[2cm]
+				\item What does your model predict NY's CPI will be in 2017? Show your calculation.
+			\end{enumerate}
+\end{enumerate}
+\vfill Remember: Save your fathom file with your name and submit it along with your test.	
+\end{document} 

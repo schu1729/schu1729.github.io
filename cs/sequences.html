@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Sequences</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/ico" href="icons/favicon.ico">
+	<script type="text/x-mathjax-config">
+  	MathJax.Hub.Config({
+		tex2jax: {
+				inlineMath: [['$','$'], ['\\(','\\)']],
+				displayMath: [ ['$$','$$']],
+				processEscapes: true
+		},
+		"HTML-CSS": { availableFonts:["TeX","Latin-Modern"],
+						preferredFont: "Latin-Modern",
+						size: 85,
+		}
+
+	});
+	</script>
+
+	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="scripts/cs.js"></script>
+</head>
+
+<body>
+<div>
+<h2 class="section">What is a sequence?</h2>
+<div class='main'>
+	<div class="def"><div class="def_head">Sequence</div><p class="def">A <em>sequence</em>, $a_n$ (or sometimes, $\{a_n\})$, is a list of numbers indexed by the counting numbers usually starting at 0, but sometimes starting at 1.
+	</div>
+ 	<p>There are various ways to describe our sequence $a_n$. We can enumerate the first few terms of the sequence and ask the reader to continue the pattern: $a_n=\{0,2,4,6,8,10,12,\ldots\}$, or we can give an explicit rule, or <em>general term</em> for calculating the terms of the sequence: $a_n=2n$. The latter description is sometimes called a <em>closed form</em> of the sequence. If we want to talk about the 12th term of the sequence we would refer to it as $a_{12}$.
+	<div class ="ex">
+		<img class="ex" src="icons/gears3.svg">
+		What are the potential dangers of specifying a sequence by enumerating a few terms and then using $\ldots$?
+	</div>
+	<div class ="ex">
+		<img class="ex" src="icons/gears3.svg">
+		Can you think of a sequence of numbers with a well-define pattern that may not have a general term?
+	</div>
+	<div class='ex'><img class'ex' src='icons/book135.svg'>Let's take a look at a few more examples of sequences. As we examine the following sequence, try to generate a general term for the sequence and use it to find the tenth term of each sequence.
+		<ul>
+			<li>The odd numbers $O_n=\{1,3,5,7,9,11,\ldots\}$ are a sequence.</li>
+			<li>The multiples of five $f_n=\{5,10,15,20,25,30,35,40,\dots\}$</li>
+			<li>The powers of two $b_n=\{1,2,4,8,16,32,64,128,\ldots\}$</li>	
+			<li>The primes $p_n=\{2,3,5,7,11,13,17,19,23,\ldots\}$</li>
+			<li>An alternating sequence $x_n=\{1,-\frac{1}{2},\frac{1}{4},-\frac{1}{8},\frac{1}{16},-\frac{1}{32},\ldots\}$</li>
+		</ul>
+	</div>
+	<div class='ex'><img class='ex' src='icons/gears3.svg'>
+		What is the general term for each of the above sequences? What is the value of the tenth term?<button class='hint' id='one'>check</button>
+		<div class='ans' id='onea'>
+			<ul>
+				<li>$O_n=2n-1$ where $n$ starts at 1, so $O_{10}=19$.</li>
+				<li>$f_n=5n$ again starting with $n=1$, so $f_{10}=50$</li>
+				<li>$b_n=2^{n-1}$ starting with $n=1$, so $b_{10}=512$</li>
+				<li>I don't know a closed form for $p_n$, but $p_{10}=29$</li>
+				<li>$x_n=(-1)^{n-1}\frac{1}{2^{n-1}}$ so $x_{10}=-1/512$</li>
+			</ul>
+		</div>
+	</div>
+	<p>Even when it is clear what the pattern of a sequence is, there still may not be a unique general term that describes the sequence.
+	<div class='ex'><img class='ex' src='icons/gears3.svg'>Given the sequence $x_n=\{1,-1,1,-1,1,-1,1,-1,1,-1,\ldots\}$, what are two possible closed forms for this sequence?<button class='hint' id='two'>check</button>
+		<div class='ans' id='twoa'>$x_n=(-1)^{n+1}$ or $x_n=-\cos(\pi n)$.</div>
+	</div>
+
+</div>
+
+<h2 class="section">Arithmetic Sequences</h2>
+<div class='main'>
+<p> 
+</div>
+
+<h2 class='section'>Geometric Sequences</h2>
+<div class='main'>
+	There are some good reasons to adopt this notation. Previously we would think of $y=3x$ and $y=x^2+\sqrt{x}$ as adequate notation for functions.
+</div>
+<h2 class='section'>Recursively Defined Sequences</h2>
+<div class='main'>
+
+</div>	
+
+<div id="footer">
+	<div class="flower">k</div>
+	<a href="index.html">Table of Contents</a><a href="ps.html">Problem Sets/Handouts</a>
+</div>
+
+
+</body>
+</html>

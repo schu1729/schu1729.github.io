@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>A little cryptography</title>
+<link rel="stylesheet" href="css/style.css">
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="scripts/cs.js"></script>
+</head>
+
+<body>
+<h2 class="section">Codes</h2>
+<p>First some terminology. Plain text is the message you want to send and be understood. This is then encrypted in some way to generate cipher text. The method of generating the ciper text is called the cipher. In general there are two main methods of encrypting a message.
+<ul>
+	<li> Transposition or rearrangement of all the letters of the message. </li>
+	<li> Substitution of each letter for a different letter.</li>
+</ul>
+<h3 class="section">Transposition</h3>
+<p> Generally these messages are difficult to decode and encode if the message has a lot of  characters. One of the earliest recorded methods was the Spartan scytale. You can implement a scytale system by using some tape, paper and a pencil to wind the paper around.
+<div display="inline-block"><img src="pics/crypt/Scytale.png"/></div>
+
+<p> One type of common transposition method is called the rail-fence transposition. It involves taking your message and breaking it into two rows; the odd numbered characters in row one and the even numbered characters in row two. Then you generate the cipher text by writing row 1 followed by row 2 in a single line of text.
+
+	<div class ="ex">
+		<img class="ex" src="icons/gears3.svg">
+		Using the rail-fence transposition generate the cipher text of the plain text "secret messages are secret".
+	</div>
+	<button class="hint" id="one">Check</button></div>
+	<div class="ans" id="onea">
+		scemsaeaeertertesgsrsce
+	</div>
+
+	<div class ="ex">
+		<img class="ex" src="icons/gears3.svg">
+		With a partner use the rail-fence transposition generate the cipher text from a plain text that you make up. Have your partner decode the cipher text.
+	</div>
+<p> A type of tranposition-like cipher that you may already know is called pig latin. You may already know how to speak pig latin, but if not check out the following <a href="http://en.wikipedia.org/wiki/Pig_Latin">here</a>.
+<h3 class="section">Substitution</h3>
+<p>The simplest substitution method is often called the Caesar shift cipher. This involves substituting letters in the plaintext with letters n further in the alphabet. Hence, if the particular cipher were a shift of 3 letters then $A\to D$ and $L\to O$ and so on.
+<div class ="ex">
+		<img class="ex" src="icons/gears3.svg">
+		Use the Caesar shift cipher of 5 letters to encrypt the plain text "secret messages are secret".
+	</div>
+	<button class="hint" id="two">Check</button></div>
+	<div class="ans" id="twoa">
+		xjhwjyrjxxfljxfwjxjhwjy
+	</div>
+<p> One of the first substitution ciphers that is based upon a key word works as follows:
+	<ol>
+		<li>Choose a keyword--in this example "lucky"</li>
+		<li><p>Write out your keyword and then follow it with the alphabet in its normal ordering without the letters in your keyword.
+			<p>In our example our alphabet would be written luckyabdefghikmnopqrstvwxz</li>
+		<li>Then the substitution works by associating each plain text letter with the letter below it in the table below.
+			<table>
+				<tr>
+					<td>a</td><td>b</td><td>c</td><td>d</td><td>e</td><td>f</td><td>g</td><td>h</td><td>i</td><td>j</td><td>k</td><td>l</td><td>m</td><td>n</td><td>o</td><td>p</td><td>q</td><td>r</td><td>s</td><td>t</td><td>u</td><td>v</td><td>w</td><td>x</td><td>y</td><td>z</td>
+				</tr>
+				<tr>
+					<td>l</td><td>u</td><td>c</td><td>k</td><td>y</td><td>a</td><td>b</td><td>d</td><td>e</td><td>f</td><td>g</td><td>h</td><td>i</td><td>k</td><td>m</td><td>n</td><td>o</td><td>p</td><td>q</td><td>r</td><td>s</td><td>t</td><td>v</td><td>w</td><td>x</td><td>z</td>
+				</tr>
+			</table>
+		</li>
+	</ol>
+
+	<div class ="ex">
+		<img class="ex" src="icons/gears3.svg">
+		Use the substitution cipher based on the key word "lucky" to encrypt the plain text "secret messages are secret".
+	</div>
+	<button class="hint" id="three">Check</button></div>
+	<div class="ans" id="threea">
+		qycpyriyqqlbyqlpyqycpyr
+	</div>
+<p> Another example of a substitution cipher is called the pigpen cipher. This one substitues symbols for letters of plaintext.
+	<a href="pics/Pigpen_cipher_key.svg"><img src="pics/crypt/Pigpen_cipher_key.svg" height ="350px" width="350px"/></a>
+	<div class ="ex">
+		<img class="ex" src="icons/gears3.svg">
+		Use the pigpen cipher to encrypt the plain text "secret messages are secret".
+	</div>
+	<button class="hint" id="four">Check</button></div>
+	<div class="ans" id="foura">
+		<img src="pics/crypt/1.png" height="100px" width ="950px"/>
+	</div>
+
+	<div class ="ex">
+		<img class="ex" src= "icons/gears3.svg">
+		Create your own cipher with a partner and exchange encoded messages.
+	</div>
+	<h3 class="section">Further Reading</h3>
+	<p>The Vigenere cipher is probably the next level of sophistication in ciphers. You can read a good explanation of how to use this cipher at <a href="https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher#Description">wikipedia.</a>
+	<p>If you are interested in learning more there is a great book by Simon Singh called <a href="http://simonsingh.net/books/the-code-book/the-book/"><i>The Code Book</i>.
+
+<div id="footer">
+	<div class="flower">k</div>
+	<a href="index.html">Table of Contents</a>
+
+</div>
+
+</body>
+
+
+</html>

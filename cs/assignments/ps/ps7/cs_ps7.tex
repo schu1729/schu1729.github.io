@@ -1,0 +1,71 @@
+\documentclass[12pt]{article}
+
+\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{float}
+\theoremstyle{plain}     %------- 'regular' theorem types
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lemma}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{example}[thm]{Example}
+\newtheorem{exer}[thm]{Exercise}
+\newtheorem{define}[thm]{Definition}
+\usepackage[top=2cm, left=2cm, right=2cm]{geometry} 
+\usepackage{parskip}
+\setlength{\parindent}{0in}
+\usepackage{floatflt}
+\usepackage{multicol}
+\usepackage{tabu}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+	urlcolor=blue}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\large
+%subject
+City Semester  \hspace{8cm} Name:\makebox[6cm]{\hrulefill}
+\\
+%specific topic
+Problem Set \#7\\
+\normalsize 
+%\emph{Complete all work on a separate sheet of paper with exercises clearly labeled and all reasoning and work given.}\\[.5cm]
+\emph{Show all work for full credit.}\\
+\begin{enumerate}
+	\item If you roll two dice, how many ways can the following events happen?
+		\begin{enumerate}
+			\item You roll an even number.\\[1cm]
+			\item You roll a prime number.\\[1cm]
+			\item You roll a multiple of 4.\\[1cm]
+			\item You roll a multiple of 4 or a prime number.\\[1cm]
+			\item You roll a number that is both a multiple of 4 and a prime number.\\[1cm]
+			\item Your roll a number that is a multiple of 3 or a multiple of 4.\\[1cm]
+		\end{enumerate}
+	\item If you roll two dice how many outcomes will have two numbers that are not the same?\\[1cm]
+	\item If you roll three dice how many outcomes will have three numbers, none of which are the same?\\[1cm]
+	\item If you roll 4 dice, how many outcomes will have 4 numbers, none of which are the same?\\[1cm]
+	\item If you roll 6 dice, how many outcomes will have 6 numbers, none of which are the same?\\[1cm]
+	\item You have six plants, which you have creatively name one, two, three, ..., six.
+		\begin{enumerate}
+			\item In how many different ways can you order your six plants in a line along your window sill?\\[1cm]
+			\item How is the previous question related to problem 5?\\[1cm]
+			\item If you only want to put 2 plants out of the 6 you own on the window sill, how many arrangements are possible?\\[1cm]
+			\item If you only want to put 3 plants out of the 6 plants you own on the window sill, how many arrangements are possible?\\[1.5cm]
+			\item If you own $n$ plants and you only want to put $k$ of them on the window sill, how many arrangements (in terms of $n$ and $k$) are possible?\\[2cm]
+		\end{enumerate}
+	\item You have ten songs you want to make into a playlist. How many unique playlists can you make? (Unique in the sense that the order of the songs differs.)\\[1cm]
+	\newpage
+	\item Explain in detail why for $\displaystyle \sum \limits_{n=1}^\infty a_nr^{n-1}= \dfrac{a_1}{1-r}$ it is necessary that $|r|<1$.\\[6cm]
+	\item Evaluate the series $\displaystyle \sum \limits_{n=10}^\infty 3\left(\dfrac{3}{4}\right)^{n-1}$\\[6cm]
+	\item Assume that the following series converge. Explain why $\displaystyle \sum \limits_{n=1}^\infty a_n =\sum \limits_{n=0}^\infty a_{n+1}=\sum \limits_{n=2}^\infty a_{n-1}$.\\[3cm]
+	
+	\item What is the probability of being dealt 5 cards from a well shuffled deck that contain two distinct pairs?
+	
+\end{enumerate}
+	
+\end{document} 

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>A Review of Function Notation and Operations</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/ico" href="icons/favicon.ico">
+	<script type="text/x-mathjax-config">
+  	MathJax.Hub.Config({
+		tex2jax: {
+				inlineMath: [['$','$'], ['\\(','\\)']],
+				displayMath: [ ['$$','$$']],
+				processEscapes: true
+		},
+		"HTML-CSS": { availableFonts:["TeX","Latin-Modern"],
+						preferredFont: "Latin-Modern",
+						size: 85,
+		}
+
+	});
+	</script>
+
+	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="scripts/cs.js"></script>
+</head>
+
+<body>
+<div>
+<h2 class="section">Functions</h2>
+<div class='main'>
+	<div class="def"><div class="def_head">Maps and Functions</div><p class="def">A <em>mapping</em> is an assignment of elements of one set to elements in another set. Typically it is notated as $f:X \to Y$, where $f$ is the name of the map, $X$ is the set of <em>inputs</em> and $Y$ is a set that contains the <em>outputs</em>. A <em>function</em> is a mapping where each element from the set of inputs is assigned to one and only one element from the set of outputs.
+	</div>
+ Let's take as our first examples two maps $f$ and $g$. The map $f$ sends integers to their doubles. First we can express that $f$ is a map from the set of integers to the set of integers with $f: \mathbb{Z} \to \mathbb{Z}$. We can sometimes also give a rule to generate the output from a given input $x$ with the notation $f: x\mapsto 2x$. Lastly we can talk about how specific elements are mapped by writing $1 \mapsto 2$ or $13 \mapsto 26$.
+<p>The mapping $g$ will send any number to its square. Following the notation convention just established we have that $g:\mathbb{R}\to \mathbb{R}$ and $g:x \mapsto x^2$. 
+	<div class ="ex">
+		<img class="ex" src="icons/gears3.svg">
+		Make a chart of the inputs and and outputs of $g$ for inputs $= \{-2,-1,0,1,2,3, \pi \}$.
+	</div>
+	<div class ="ex">
+		<img class="ex" src="icons/gears3.svg">
+		Explain why both $f$ and $g$ qualify as functions according to the definition given above.
+	</div>
+<p> As we have already noted $f$ and $g$ are both functions. Notice that we defined $f$ as taking only integers inputs, whereas $g$ can take any real number as an input. Also, the outputs of $f$ are the multiples of 2, subset of the integers, while the outputs of $g$ form the nonnegative real numbers. We can use the terms domain and image(or range) to describe a function's set of inputs and set of outputs, respectively.
+	<div class="def"><div class="def_head">Domain and Range</div><p class="def">The <em>domain</em> of a function $f$ is the set of inputs for which the function is defined. The <em>range</em> or <em>image</em> of a function $f$ is the set of outputs attained by $f$ for a given domain.
+	</div>
+<p> Finally we should note that going forward we will use function notation to denote functions instead of the mapping notation introduced above. The two functions already introduced will be notated as $f(x)=2x$ and $g(x)=x^2$. It is read as "f of x equals 2x" and "g of x equals x squared". It may be tempting to read the $f(x)$ as $f$ times $x$, but the difference is usually clear from context.
+</div>
+
+<h2 class="section">Operations with Functions</h2>
+<div class='main'>
+<p> You can create new functions from old functions using the arithmetic operations. For example, let $f(x)=2x$ and $g(x)=x^2-x$. Then we can define a new function $h$ using $f$, $g$, and addition, subtraction, multiplication or division.
+	<ul>
+		<li> $h(x)=(f+g)(x)=f(x)+g(x)$</li>
+		<li> $h(x)=(f\cdot g)(x)=f(x)\cdot g(x)$</li>
+		<li> $h(x)=(f/g)(x)= \dfrac{f(x)}{g(x)}$ where $g(x) \neq 0$.</li>
+	</ul>
+	<p>We can also define a new function using the operation called composition.
+		<div class="def"><div class="def_head">Composition of Functions</div><p class="def"> Given functions $f:X\to Y$ and $g:Z\to X$, the function $h(x)=(f \circ g)(x):Z \to Y$ is the composition of $f$ and $g$ it sends $z \to g(z)=x \to f(g(z))=f(x)=y$.</p>
+
+		</div>
+		<div class='ex'>
+			<img class='ex' src='icons/book135.svg'>
+			Let $f(x)=x^2+1$ and $g(x)=3x-4$. Then the new <em>function</em> $f$ composed with $g$ can be written as either $(f\circ g)(x)$ or $f(g(x))$. And since $f$ and $g$ are nice polynomials you can give the explicit rule for $f$ composed with $g$ as follows:
+			<p>$\begin{array}{r l} f(g(x))& =f(3x-4)\\ & = (3x-4)^2+1\\ & = 9x^2-24x+16+1\\ & =9x^2-24x+17 \end{array}$
+
+		</div>
+		<div class='ex'>
+			<img class='ex' src='icons/book135.svg'>
+			We are not restricted to polynomials. Let $f(x)=|2x-1|$ and $g(x)=3\sin (\pi x)$. Then $(g \circ f)(x)$ can be found as follows:
+			<p>$\begin{array}{r l} (g \circ f)(x) &= g(f(x))\\ &= g(|2x-1|)\\ &= 3\sin(\pi|2x-1|) \end{array}$
+		</div>
+	<p>A good way to build intution as to what these operations with functions create is by looking at the graphs of some of the outcomes. For each of the following pairs of functions first create the new function algebraically as indicated by the operation between them, and then try to sketch what this new function looks like. Lastly actually check your sketch in desmos by following the link.
+	<div class='ex'>
+		<img class='ex' src='icons/gears3.svg'>
+		<ol class='ex'>
+			<li> Let $f(x)=2x$ and $g(x)=-2x$. Form $(f+g)(x)$, $(f-g)(x)$, $(fg)(x)$, and $(f/g)(x)$. <a href='https://www.desmos.com/calculator/j0frhwrkll'>Check</a> your sketches.</li> 
+			<li> This one's a little harder. Let $f(x)=x^2$ and $g(x)=2\sin (3x)$. Form $(f+g)(x)$, $(f-g)(x)$, $(fg)(x)$, and $(g/f)(x)$. <a href='https://www.desmos.com/calculator/xedcjjdzhe'>Check</a> your sketch.</li>
+			<li> Let $f(x)=|x|$ and $g(x)=\sin x$. Form $f(g(x))$. Check the sketch yourself using Desmos.
+			<li> Try to figure out why the new functions look the way they look.</li>
+		</ol>
+	</div>
+</div>
+
+<h2 class='section'>Usefulness of Function Notation</h2>
+<div class='main'>
+	There are some good reasons to adopt this notation. Previously we would think of $y=3x$ and $y=x^2+\sqrt{x}$ as adequate notation for functions.
+</div>
+</div>	
+<div id="footer">
+	<div class="flower">k</div>
+	<a href="index.html">Table of Contents</a><a href="ps.html">Problem Sets/Handouts</a>
+</div>
+
+</body>
+</html>

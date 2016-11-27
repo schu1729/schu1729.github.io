@@ -1,0 +1,95 @@
+\documentclass[12pt]{article}
+
+\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{float}
+\theoremstyle{plain}     %------- 'regular' theorem types
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lemma}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{example}[thm]{Example}
+\newtheorem{exer}[thm]{Exercise}
+\newtheorem{define}[thm]{Definition}
+\usepackage[top=2cm, left=2cm, right=2cm]{geometry} 
+\usepackage{parskip}
+\setlength{\parindent}{0in}
+\usepackage{floatflt}
+\usepackage{multicol}
+\usepackage{tabu}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+	urlcolor=blue}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\large
+%subject
+City Semester  \hspace{8cm} Name:\makebox[6cm]{\hrulefill}
+\\
+%specific topic
+Problem Set \#5\\
+\normalsize 
+%\emph{Complete all work on a separate sheet of paper with exercises clearly labeled and all reasoning and work given.}\\[.5cm]
+\emph{Show all work for full credit.}\\
+\begin{enumerate}
+	\item Recall that to say that $y=\log_b x$ also implies that $b^y=x$. Evaluate the following expressions without a calculator.
+	\begin{multicols}{2}
+		\begin{enumerate}
+			\item $\log_2 64$
+			\item $\log_2 \frac{1}{32}$
+			\item $\log_2 \sqrt{8}$
+			\item $\log_2 \frac{\sqrt{32}}{\sqrt[3]{2}}$
+			\item $\ln e^2$
+			\item $\ln \sqrt[3]{e^4}$
+			\item $2\log 10 + 3\ln e^3$
+		\end{enumerate}
+	\end{multicols}
+	\item Remember that the exponential $y=b^x$ is the inverse of the logarithm base $b$, in other words $\displaystyle b^{\log_b u}=u$ and $\log_b b^u=u$. Evaluate the following without a calculator.
+	\begin{multicols}{2}		
+		\begin{enumerate}
+			\item $\log 10^{2x}$
+			\item $10^{\log 2x}$
+			\item $\log 10^{x^2+2x+1}$
+			\item $e^{3\ln 5x}$
+		\end{enumerate}	
+	\end{multicols}	
+	\item Use the idea of inverse functions to solve for $x$ in the following equations.
+	\begin{multicols}{2}
+		\begin{enumerate}
+			\item $120 = 3(10)^x$
+			\item $120 = 3(10)^{x+3}$
+			\item $100 = \log (10x)$
+			\item $100 = \log (25x^2)$
+			\item $100 = 3e^{x+5}$
+			\item $100 = \ln (25x^3)$
+		\end{enumerate}			
+	\end{multicols}
+	\item Let $A(t)=1000(1.03)^t$.
+		\begin{enumerate}
+			\item If the function $A$ were supposed to model the amount of money $A$ in terms of time $t$ in years, give an explanation of the meaning of the numbers 1000 and 1.03 in the model.
+			\item How much money is there at time 0?
+			\item How long would it take to double the amount of money?
+			\item How long would it take to triple the amount of money?
+			\item How long would it take to have five times the original amount of money?
+			\item How long would it take to have $n$ times the original amount of money?
+		\end{enumerate}
+\newpage
+
+	\item Let $f(x)= \log_2 (x-5)$ and $g(x)=\log (x+2)+5$
+		\begin{enumerate}
+			\item Give the domain of $f$.
+			\item Give the domain of $g$.
+			\item Give the range of $f$.
+			\item Give the range of $g$.
+			\item On the same axes give a sketch of both $f$ and $g$ including their vertical asymptotes.
+		\end{enumerate}
+	\item Explain why the magnitude of earthquakes is measured on a logarithmic scale.
+	\item What other phenomena are measured on a logarithmic scale?
+\end{enumerate}
+	
+\end{document} 

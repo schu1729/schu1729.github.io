@@ -45,7 +45,7 @@ li.unit{
 .section{
 	font-family: "Oldnews";
 }
-.chap>a{
+.chap>a:hover{
 	border-bottom-style: dotted;
 	border-bottom-color: navy;
 	border-bottom-width: 1px;
@@ -55,6 +55,9 @@ li.unit{
 }
 a{
 	text-decoration: none;
+}
+a:hover{
+	text-decoration:none;
 }
 div.def_head{
 	width: 225px;
@@ -76,8 +79,6 @@ div.ex {
 	font-family: "LibertineD";
 	margin-bottom: 10px;
 	margin-top: 10px;
-	
-	
 
 }
 img.ex {
@@ -107,7 +108,162 @@ ol.ex{
 	margin-left: 7px;
 }
 
+.th {
+	font-family: "Oldnews";
+	display: block;
+	margin-left:50px;
 
+}
+div.th {
+	display: block;
+	max-width: 800px;
+	margin-top: -15px;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size:17px;
+	margin-bottom:5px;
+}
+div.ex {
+	font-family: "LibertineIt";
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+img.ex {
+	float:left;
+	margin-right: 5px;
+	width: 20px;
+	height: 20px;
+}
+img.geo{
+	float: left;
+	margin-right:5px;
+	width: 20px;
+	height: 20px;
+}
+div.def_term {
+	font-family: "Oldnews";
+	width:200px;
+	font-size: 18px;
+	border-bottom: 2px;
+	border-bottom-color: navy;
+	border-bottom-style: dotted;
+	border-left: 2px;
+	border-left-color: navy;
+	border-left-style: dotted;
+	padding-bottom: 5px;
+	padding-top:2px;
+	padding-left:5px;
+}
+p.def_term{
+	margin-top: 2px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+div.def {
+	font-family: Garamond;
+	padding-bottom: 10px;
+}
+.hint{
+	background-color: navy;
+	border-radius: 8px;
+	opacity: .5;
+	color: white;
+	border: 0px;
+	margin: 0px;
+	outline: none;
+}
+button.wex{
+	background-color: orange;
+	border-radius: 8px;
+	opacity: .5;
+	color: white;
+	border: 0px;
+	margin: 0px;
+	outline: none;
+}
+#ex1, #ex2,div.wexsol{
+	display:none;
+}
+div.ans{
+	padding: 5px;
+	border-style: dotted;
+	border-color: navy;
+	border-radius: 5px;
+	border-width: 2px;
+	display: none;
+}
+.closebtn{
+	position:absolute;
+	top: 20px;
+	right: 30px;
+	font-size: 40px !important;
+	color: orange;
+}
+.overlay{
+	width: 80%;
+	height: 0;
+	position: fixed;
+	z-index: 1;
+	left: 10%;
+	top:0;
+	background-color: rgba(10,10,10,.7);
+	overflow-x: hidden;
+	transition: 1s;
+	padding-left:10px;
+}
+.overlay-content{
+	position: relative;
+	width: 90%;
+	top: 10%;
+	color: white;
+}
+div.qq{
+
+	font-size: 16px;
+	font-family: "LibertineD";
+	width:600px;
+	height: 600px;
+}
+button.qq{
+	background-color: purple;
+	color: white;
+	outline:none;
+	border:0px;
+	margin:0px;
+	border-radius: 8px;
+	opacity: .5;
+
+}
+div.epic img{
+	width: 250px;
+	height: 200px;
+}
+div.epic{
+	border: none;
+	padding-left: 5px;
+	margin: 10px;
+	display: inline-block;
+
+}
+div.wexsol{
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-left:10px;
+	border-left-color:orange;
+	border-left-style:double;
+}
+div.vid p{
+	display: inline-block;
+	margin-left:10px;
+	margin-top: -5px;
+}
+iframe.ex{
+	display: none;
+	margin-top:10px;
+}
+iframe.geo{
+	margin-top: 5px;
+}
 div#footer{
 	color: navy;
 	width: 900px;

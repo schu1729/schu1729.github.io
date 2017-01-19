@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $('.hint').mouseenter(function(){
+        $(this).fadeTo('slow',1);
+    });
+    $('.hint').mouseleave(function(){
+        $(this).fadeTo('slow',.5);
+    });
+    $('#one.hint').click(function(){
+    	$('#onea.ans').slideToggle();
+    });
+    $('#two.hint').click(function(){
+    	$('#twoa.ans').slideToggle();
+    });
+    $('#three.hint').click(function(){
+    	$('#threea.ans').slideToggle();
+    });
+    $('#four.hint').click(function(){
+    	$('#foura.ans').slideToggle();
+    });
+});

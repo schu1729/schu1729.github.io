@@ -1,0 +1,57 @@
+\documentclass[12pt]{article}
+
+\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{float}
+\theoremstyle{plain}     %------- 'regular' theorem types
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lemma}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{example}[thm]{Example}
+\newtheorem{exer}[thm]{Exercise}
+\newtheorem{define}[thm]{Definition}
+\usepackage[top=2cm, left=2cm, right=2cm]{geometry} 
+\usepackage{parskip}
+\setlength{\parindent}{0in}
+\usepackage{floatflt}
+\usepackage{multicol}
+\usepackage{tabu}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+	urlcolor=blue}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\large
+%subject
+City Semester  \hspace{7cm} Name:\makebox[6cm]{\hrulefill}
+\\
+%specific topic
+Rents\\
+\normalsize 
+\emph{Complete all work on a separate sheet of paper with exercises clearly labeled and all reasoning and work given.}\\[.5cm]
+%\emph{Show all work for full credit.}
+\begin{enumerate}
+	\item First let us examine the relationship between rents and different measures of income.
+		\begin{enumerate}
+			\item Start by researching and summarizing the difference between household income and family income. How are they different? Explain why one is typically larger than the other.
+			\item Generate a scatterplot to look at the relationship between income and monthly rent. Make 1-2 observations about the plot.
+			\item Give the equation of the least squares regression line and use it to predict the rents if median income next year is \$57,000.
+			\item How confident are you in the model? Explain using residuals, $r^2$ value, and other observations.
+		\end{enumerate}
+	\item Now let us look at the relationship between rents and GDP measured in billions.
+		\begin{enumerate}
+			\item Start by researching roughly how GDP is calculated. What does it represent? How does it accurately or inaccurately convey the economic strength of a region?
+			\item Generate a scatterplot to examine the relationship between monthly rents and GDP. Make 1-2 observations about the plot.
+			\item Give the equation of the least squares regression line and use it to predict the rents if the GDP of NY next year is \$1350 billion.
+			\item How confident are you in the model? Explain using residuals, $r^2$ value, and other observations.
+		\end{enumerate}
+	\item Conduct any other research (15-20 minutes) you may want to bring to the analysis and give a short paragraph summary of your thoughts about rents.
+\end{enumerate}
+	
+\end{document} 

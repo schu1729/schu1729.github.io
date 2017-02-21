@@ -1,0 +1,115 @@
+\documentclass[12pt]{article}
+
+\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{float}
+\theoremstyle{plain}     %------- 'regular' theorem types
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lemma}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{example}[thm]{Example}
+\newtheorem{exer}[thm]{Exercise}
+\newtheorem{define}[thm]{Definition}
+\usepackage[top=2cm, left=2cm, right=2cm]{geometry} 
+\usepackage{parskip}
+\setlength{\parindent}{0in}
+\usepackage{floatflt}
+\usepackage{multicol}
+\usepackage{tabu}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+	urlcolor=blue}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\large
+%subject
+City Semester  \hspace{8cm} Name:\makebox[6cm]{\hrulefill}
+\\
+%specific topic
+Problem Set \#2\\
+\normalsize 
+%\emph{Complete all work on a separate sheet of paper with exercises clearly labeled and all reasoning and work given.}\\[.5cm]
+\emph{Show all work for full credit.}\\
+\begin{enumerate}
+	\item The U.S. census and population growth. In 1790 the population of the U.S. was 3,929,214, whereas in 2010 it had grown to 308,745,538.
+	
+		\begin{enumerate}
+			\item Give a model for the population growth over this time where the population grew by the same amount each year. What would the yearly growth be?\\
+			\item What does your model predict for the year 1900?\\
+			\item The actual population of the U.S. in 1900 was 76,212,168. Did your model over estimate or under estimate? What was the percentage error?\\
+			\item Let's look at census data by the decade in the  following table:\\
+			\begin{tabular}{c | c | c |c}
+				Year & Population & Difference & Ratio\\
+				\hline
+				1790 & 3,929,214 & &\\
+				1800 & 5,308,483 & &\\
+				1810 & 7,239,881 & &\\
+				1820 & 9,683,453 & &\\
+				1830 & 12,866,020 & &\\
+				1840 & 17,069,452 & &\\
+				1850 & 23,191,876 & &\\
+				1860 & 31,443,321 & &\\
+			\end{tabular}\\[.5cm]
+			Fill out the chart by finding the difference in population from one decade to the previous decade, and the ratio of the population from one decade to the previous decade.
+			\item Give a function that approximately models the population data above.\\[1cm]
+			
+			\item According to the model what should the population be in 1960?
+			\item What is wrong here?	
+		\end{enumerate}
+\newpage
+	\item Without a calculator give a sketch of the following, noting salient features such as the $y$-intercept, and the horizontal asymptote.
+	\begin{multicols}{2}
+		\begin{enumerate}
+			\item $f(x)=-3^x$\\
+			\item $g(x)=-3^{-x}$\\
+			\item $h(x)=4+(\frac{1}{2})^x$\\
+			\item $j(x)=1-e^x$\\
+			\item $k(x)=e^{-x}-1$\\
+		\end{enumerate}
+	\end{multicols}
+	
+	\item The amount of substances such as medical drugs or caffeine in the bloodstream decays or is metabolized over time. This can be modeled by an exponential decay function. Given the function $D(t)=50e^{-0.2t}$, which measures the milligrams left in the blood stream after $t$ hours, how large was the original dosage? How much is left after 3 hours?\\
+	\item Suppose you have a type of bacteria that divide every minute. Suppose at noon a single bacterium of this type colonizes a garbage can. The bacterium and all his descendants never have to worry about food and continue to divide every minute, but they fear when their home, the garbage can, will be full of bacteria.
+		\begin{enumerate}
+			\item Give a model for the number of bacteria in the can in terms of $t$ measured in minutes after noon.\\
+			\item How many bacteria are in the can at 12:05? 12:10?\\
+			\item When the can is half full, the president of the bacteria colony reassures its constituents that doomsday (the day the can is full) is far away. After all there is as much room left in the can as has been used in the entire previous history of the colony. Is the president correct? How much time is left until doomsday?\\
+			\item If the can is full at 1pm, when is the can half full? When is it a quarter full?
+			%\item When the can is half-full, a wise bacterium starts another colony and this slows down splitting time to 2 minutes. How much does this delay doomsday for the new colony assuming a similar sized garbage can?
+			\end{enumerate}
+		\item You are offered the choice between two investments. One will pay you 7\% interest compounded quarterly and the other will pay 6.8\% compounded continuously. Which gives the the higher return? If you invest \$1500 today, how much will you have the year you graduate from college(assume it takes you 4 years)?\\
+		\newpage
+		\item Alice and Bob both offer to paint two rooms of your apartment. Bob wants to be paid \$650. Alice noticing a 6x6 kenken puzzle on your table wants to be paid in pennies. One penny on the lower right square in the kenken puzzle, two pennies on the second square, and 4 pennies on the next square. Then keep doubling the amount of pennies for each adjacent square in the kenken puzzle until all squares have a stack of pennies on them. Assuming you have a large tub of pennies and that you have a machine that will create stacks of pennies of whatever height you want, who will you hire? Explain.\\
+		
+		\item One of the early economists, Thomas Malthus, was commonly held responsible for economics becoming known as the dismal science. He wrote, "Taking the population of the world at any number... the human species would increase in the ratio of 1, 2, 4, 8, 16, 32, 64, 128, 256, 51[2], etc. and subsistence as 1, 2, 3, 4, 5, 6, 7, 8,9, 10, etc. In two centuries and a quarter the population would be to the means of subsistence as 512 to 10". Explain the mathematics of Malthus's claim. Why does this passage support the view of economics as the dismal science?
+
+		\item \hspace{-2em}\llap{$*$}\hspace{2em} Let's explore the statement: Exponentials grow faster than polynomials.
+			\begin{enumerate}
+				\item First let's look at $f(x)=e^x$ and review limit notation. What is $\displaystyle \lim_{x\to -\infty} f(x)$? This is the horizontal asymptote of $f$.
+				\item We say that $\displaystyle \lim_{x\to \infty} e^x =\infty$ because as $x$ gets big $e^x$ increases without bound (meaning there is no cap to how big the $y$ values get).
+				\item Recall how polynomials behave when $|x|$ is big. Let $g(x)=x^2$, $h(x)=x^3$, $j(x)=x^4$ and $k(x)=x^5$. Describe what happens for each as you look at $\lim_{x\to \infty}$ and $\lim_{x\to -\infty}$. Do the functions go towards a finite number, or are they unbounded? If unbounded, do they go towards positive infinity or negative infinity?
+				\item Generalize the pattern you see in the previous question to polynomials of degree $n$.
+				\item If exponentials grow faster than polynomials than no matter what value they have at $x=0$ we would expect for some $x$ the exponential will have a higher $y$ value. For $f(x)=e^x-2$ and $g(x)=x^2+2$ give an $x$ that makes $f(x)>g(x)$?
+				\item Repeat the previous exercise but replace $g(x)$ with $g(x)=x^3+2$.
+				\item Repeat the previous exercise but with $g(x)=100x^4+100$. Can you find the exact value of $x$ where $f(x)$ becomes greater than $g(x)$?
+			\end{enumerate}					
+%		\item includegraphics[scale=.1]{fathom.png} In this problem we will learn how to apply linear regression analysis to exponential data.
+%			\begin{enumerate}
+%				\item First take the data from problem %one and put it into a fathom file with one column labeled year and the other pop. 
+%				\item Create a new column called `pop_log' and right click on it and select `edit formula'. In the white rectangle type log(pop). Click apply.
+%				\item Graph year versus pop. Describe what you see? Graph year versus log_pop. Describe what you see.
+	%		\end{enumerate}
+		
+		
+			
+\end{enumerate}
+		
+	
+	
+\end{document} 

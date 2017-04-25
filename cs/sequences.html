@@ -51,7 +51,7 @@
 		</ul>
 	</div>
 	<div class='ex'><img class='ex' src='icons/gears3.svg'>
-		What is the general term for each of the above sequences? What is the value of the tenth term?<button class='hint' id='one'>check</button>
+		What is the general term for each of the above sequences? What is the value of the tenth term? <button class='hint' id='one'>check</button>
 		<div class='ans' id='onea'>
 			<ul>
 				<li>$O_n=2n-1$ where $n$ starts at 1, so $O_{10}=19$.</li>
@@ -62,11 +62,15 @@
 			</ul>
 		</div>
 	</div>
-	<p>Even when it is clear what the pattern of a sequence is, there still may not be a unique general term that describes the sequence.
-	<div class='ex'><img class='ex' src='icons/gears3.svg'>Given the sequence $x_n=\{1,-1,1,-1,1,-1,1,-1,1,-1,\ldots\}$, what are two possible closed forms for this sequence?<button class='hint' id='two'>check</button>
+	<p>Even when it is clear what the pattern of a sequence is, there still may not be a unique general term that describes the sequence, or the general term is difficult to determine. 
+	<div class='ex'><img class='ex' src='icons/gears3.svg'>Given the sequence $x_n=\{1,-1,1,-1,1,-1,1,-1,1,-1,\ldots\}$, what are two possible closed forms for this sequence? <button class='hint' id='two'>check</button>
 		<div class='ans' id='twoa'>$x_n=(-1)^{n+1}$ or $x_n=-\cos(\pi n)$.</div>
 	</div>
-
+	<p>The advantage of knowing the general term is the ease with which we can find terms of the sequence. If we were asked what the 233rd odd number is we can just use the sequence $O_n=2n-1$, and see that $O_{233}=466-1=465$.
+	<div class='ex'><img class='ex' src='icons/gears3.svg'>
+		Use the sequence $h_n=\left(\dfrac{1}{2}\right)^{n-1}$ to determine how many meters long a meter that is cut in half 11 times is. <button class='hint' id='three'>check</button>
+			<div class='ans' id='threea'>Since $h_n$ gives the length of something halved $n$ times. We just find the 11th term of the sequence. $h_11=\left(\dfrac{1}{2}\right)^{11}=\dfrac{1}{2048}$. So it is $\dfrac{1}{2048}$ meters long.</div>
+	</div>
 </div>
 
 <h2 class="section">Arithmetic Sequences</h2>

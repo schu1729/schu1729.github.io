@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Series</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/ico" href="icons/favicon.ico">
+	<script type="text/x-mathjax-config">
+  	MathJax.Hub.Config({
+		tex2jax: {
+				inlineMath: [['$','$'], ['\\(','\\)']],
+				displayMath: [ ['$$','$$']],
+				processEscapes: true
+		},
+		"HTML-CSS": { availableFonts:["TeX","Latin-Modern"],
+						preferredFont: "Latin-Modern",
+						size: 85,
+		}
+
+	});
+	</script>
+
+	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="scripts/cs.js"></script>
+</head>
+
+<body>
+<div>
+<h2 class="section">Series Notation</h2>
+<div class='main'>
+	<p>Series involve summing the terms of a sequence. So first let us talk about the way we will notate this summation. 
+		<div class='def'><div class='def_head'>Partial Sum</div>
+			<p> The partial sum $s_m$ of a sequence $a_k$ is the sum of the first  $m$ terms of the sequence. ie. $s_m=a_1+a_2+\ldots +a_m$.
+		</div>
+	We won't always want to sum from the first term to the $m$th term so we also have sigma notation. Again let us not specify the sequence but notate it as $a_k$ and suppose we want to express the partial sum $s_m$ in sigma notation. It would look like: $\displaystyle \sum \limits_{k=1}^m a_k$. Let's see this in a few examples. Don't worry about evaluating any of the sums yet.
+	<div class='ex'><img src='icons/book135.svg'> In each of these examples think about how sigma notation is constructed and why it is generally the preferred notation for summation.
+		<ul>
+			<li>Let $a_n=\{1,1,1,1,1,\ldots\}$, or $a_n=1$. Then summing the first 15 terms would be $1+1+1+\ldots+1$ fifteen times or 15(1). In sigma notation: $\displaystyle \sum \limits_{k=1}^{15} 1 =15$.</li>
+			<li>Let $b_k=\{1,-2,4,-8,16,\ldots\}$ or $b_k=(-2)^{k-1}$. Summing the 3rd term through the 12th term requires the use of sigman notation: $\displaystyle \sum \limits_{k=1}^{12} (-2)^{k-1}$.</li>
+			<li>We will see later that we can occasionally sum an infinite number of terms and get a finite result. Let $g_n=\frac{1}{3}^{n-1}$ then the sum of the first term and all following terms can be expressed in partial sums as $s_\infty$, but sigma notation is more commonly used in this situation: $\displaystyle \sum \limits_{k=1}^\infty \left(\frac{1}{3}\right)^{k-1}$</li>
+		</ul>
+	<div class='ex'><img src='icons/gears.svg'>
+
+	</div>
+</div>
+
+<h2 class='section'>Arithmetic Series</h2>
+<div class='main'>
+	
+</div>	
+
+<h2 class='section'>Geometric Series</h2>
+<div class='main'>
+	
+</div>	
+<div id="footer">
+	<div class="flower">k</div>
+	<a href="index.html">Table of Contents</a><a href="ps.html">Problem Sets/Handouts</a>
+</div>
+
+
+</body>
+</html>

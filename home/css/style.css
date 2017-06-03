@@ -39,6 +39,8 @@ div.bgimg-3 {
 	min-height:100%;
 	background-attachment: fixed;
 	position:relative;
+	transition: .5s ease;
+	transition-property: background;
 
 }
 h3{

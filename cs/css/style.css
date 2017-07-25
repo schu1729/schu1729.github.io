@@ -294,6 +294,13 @@ div.flower{
 .carousel-inner > .item >img,
 .carousel-inner > .item > a > img{
 	margin: auto;
-	padding: 20px;
+	padding: 0px;
 	height: 600px;
+}
+#myCarousel{
+	width: 125%;
+	margin-left: -12.5%;
+}
+.carousel-control{
+	width:5%;
 }

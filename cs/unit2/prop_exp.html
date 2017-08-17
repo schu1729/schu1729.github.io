@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>A Review of Properties of Exponents</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="icon" type="image/ico" href="icons/favicon.ico">
+	<script type="text/x-mathjax-config">
+  	MathJax.Hub.Config({
+		tex2jax: {
+				inlineMath: [['$','$'], ['\\(','\\)']],
+				displayMath: [ ['$$','$$']],
+				processEscapes: true
+		},
+		"HTML-CSS": { availableFonts:["TeX","Latin-Modern"],
+						preferredFont: "Latin-Modern",
+						size: 85,
+		}
+
+	});
+	</script>
+
+	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="../scripts/cs.js"></script>
+	<script src='../scripts/functions.js'></script>
+</head>
+
+<body>
+<div>
+	<h2 class="section">Exponents</h2>
+
+	<p>Early in the development of mathematical notation, it was recognized that writing: $x\cdot x\cdot x\cdot x\cdot x$ was perhaps not the most efficient way of communicating the idea that $x$ is multiplied by itself five times. Instead, we introduce the exponent notation and write $x^5$. We will see that many of the familiar properties of exponents arise just from this idea.</p>
+	<div class='th'> <div class='def_head'>Properties of Exponents:</div>
+		<ul>
+			<li>$x^a\cdot x^b= x^{a+b}$</li>
+			<li>$(x^a)^b=x^{ab}$</li>
+			<li>
+		</ul>
+	</div>
+</div>	
+
+<!-- Here should be a multiple choice, check your understanding type thing...
+	This requires referencing a js file specific to this html file.
+-->
+<div class="quiz"><img class='ex' src='icons/pen.svg'><button class="qq" id='qqb1' onclick='openQ()'>A quick quiz.</button>
+	<div class="overlay" id="qq1">
+		<a href='javascript:void(0)' class='closebtn' onclick='closeQ()'>&times;</a>
+		<!--quiz content-->
+		<div class='overlay-content'>
+			<form name='one' action='javascript:void()'>
+			<input id='resetButtonq1' type='button' value='Clear Answers'/>
+			<ol>
+				<li><p>$f(x)=\dfrac{x+1}{\sin(x)}$ attains both a maximum and a minimum on the interval $[-\pi/2,\pi/2]$ </br>
+					<input type="radio" name='q1' value='false' id='q1t'/>true<input type="radio" name='q1' value='false' id='q1f'/>false.
+						<button id='q1check' onclick='checkQ1()'>check</button>
+						<span id='qq1_check'></span>
+				</li>
+				<li><p>Find the $x$ coordinate of the local minimum of $f(x)=x(2x^2+3x-12)$. <input type='text' id='q2'/><button id='q2check' onclick='checkQ2()'>check</button><span id='qq2_check'></span></li>
+				
+			</ol>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="footer">
+	<div class="flower">k</div>
+	<a href="../index.html">Table of Contents</a><a href="../ps.html">Problem Sets/Handouts</a>
+</div>
+</body>
+</html>

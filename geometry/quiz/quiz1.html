@@ -1,0 +1,85 @@
+<html>
+
+<head>
+	<title>Geometry Quiz</title>
+	<style> 
+		div#test{
+			border: 5AB029 3px solid;
+			padding: 10px 40px 40px 40px;
+			background-color: 34DBEB;
+			width: 70%;
+		}
+		table {
+  			font-family: arial, sans-serif;
+  			border-collapse: collapse;
+  			width: 100%;
+		}
+
+		td, th {
+  			border: 1px solid #dddddd;
+  			text-align: left;
+  			padding: 8px;
+		}
+
+		tr:nth-child(even) {
+ 			background-color: #dddddd;
+		}
+		
+	
+		button{
+			margin-top: 20px;
+			border-radius: 25px;
+			padding: 12px 20px;
+			margin-left: 15px;
+			border-color: white;
+		}
+		button:hover{
+			background-color: #1b1654;
+			color: white;
+		}
+		h2#assignment{
+			border-left-width: 10px;
+			border-left-style: solid;
+			border-left-color: #1b1654;
+			padding: 0px;
+			margin: 0px;
+			height:30px;
+		}
+		h3#test_status{
+			padding: 0px;
+			margin:0px;
+			border-left-width: 15px;
+			border-left-style: solid;
+			border-left-color: #db9b07;
+			height:30px;
+		}
+
+	</style>
+	<script src="quiz1.js"></script>
+	<script type="text/x-mathjax-config">
+  	MathJax.Hub.Config({
+		tex2jax: {
+				inlineMath: [['$','$'], ['\\(','\\)']],
+				displayMath: [ ['$$','$$']],
+				processEscapes: true
+		},
+		"HTML-CSS": { availableFonts:["TeX","Latin-Modern"],
+						preferredFont: "Latin-Modern",
+						size: 85,
+		}
+
+	});
+	</script>
+	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</head>
+
+<body>
+	<h2 id="assignment">Geometry Quiz #1</h2>
+	<h3 id="test_status"></h3>
+	<div id="test"></div>
+	<div id="check"></div>
+</body>
+
+</html>
+

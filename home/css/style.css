@@ -38,6 +38,7 @@ div.bgimg-3 {
 }
 div.bgimg-4 {
 	background-image:url("../img/grass.jpg");
+
 }
 .bgimg-1,.bgimg-2, .bgimg-3, .bgimg-4{
 	background-size: cover;
@@ -92,7 +93,7 @@ h3{
 	
 }
 .section{
-	position: absolute;
+	
 	display: inline-block;
 	margin-left: 10px;
 

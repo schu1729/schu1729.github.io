@@ -1,0 +1,9 @@
+\contentsline {chapter}{\tocchapter {Chapter}{1}{Sets}}{5}{chapter.1}%
+\contentsline {chapter}{\tocchapter {Chapter}{2}{Combinatorics}}{7}{chapter.2}%
+\contentsline {section}{\tocsection {}{1}{Counting: Multiplication Principle A}}{7}{section.2.1}%
+\contentsline {section}{\tocsection {}{2}{Counting: Multiplication Principle B}}{7}{section.2.2}%
+\contentsline {section}{\tocsection {}{3}{Counting: Multiplication Principle C}}{7}{section.2.3}%
+\contentsline {section}{\tocsection {}{4}{Counting: Multiplication Principle D}}{7}{section.2.4}%
+\contentsline {section}{\tocsection {}{5}{Combinations A}}{7}{section.2.5}%
+\contentsline {chapter}{\tocchapter {Chapter}{3}{Probability}}{9}{chapter.3}%
+\contentsline {chapter}{\tocchapter {Chapter}{4}{Answers}}{11}{chapter.4}%

@@ -1,0 +1,105 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{mcirc}{book}{}
+      \name{author}{3}{}{%
+        {{hash=d745785b24bd7d02900122ba5d349103}{%
+           family={Fomin},
+           familyi={F\bibinitperiod}}}%
+        {{hash=74436bfe78f03aa33e227aa44fe18157}{%
+           family={Genkin},
+           familyi={G\bibinitperiod}}}%
+        {{hash=7c67e0425d0f1da389de17c243944121}{%
+           family={Itenberg},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Mathematical Society}%
+      }
+      \strng{namehash}{53f9c593d0cdc4b6f9cb9d940f8e776f}
+      \strng{fullhash}{53f9c593d0cdc4b6f9cb9d940f8e776f}
+      \strng{bibnamehash}{53f9c593d0cdc4b6f9cb9d940f8e776f}
+      \strng{authorbibnamehash}{53f9c593d0cdc4b6f9cb9d940f8e776f}
+      \strng{authornamehash}{53f9c593d0cdc4b6f9cb9d940f8e776f}
+      \strng{authorfullhash}{53f9c593d0cdc4b6f9cb9d940f8e776f}
+      \field{labelalpha}{FGI96}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Mathematical World}
+      \field{title}{Mathematical Circles (Russian Experience)}
+      \field{volume}{7}
+      \field{year}{1996}
+    \endentry
+    \entry{aops}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f87567f2159b425795ebb7ba9bc406ec}{%
+           family={Patrick},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AoPS Inc.}%
+      }
+      \strng{namehash}{f87567f2159b425795ebb7ba9bc406ec}
+      \strng{fullhash}{f87567f2159b425795ebb7ba9bc406ec}
+      \strng{bibnamehash}{f87567f2159b425795ebb7ba9bc406ec}
+      \strng{authorbibnamehash}{f87567f2159b425795ebb7ba9bc406ec}
+      \strng{authornamehash}{f87567f2159b425795ebb7ba9bc406ec}
+      \strng{authorfullhash}{f87567f2159b425795ebb7ba9bc406ec}
+      \field{labelalpha}{Pat04}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{title}{Introduction to Counting and Probability}
+      \field{year}{2004}
+    \endentry
+    \entry{hpn}{book}{}
+      \name{author}{1}{}{%
+        {{hash=33c512a801f6604a8ccf9e8a4570a45e}{%
+           family={Pishro-Nik},
+           familyi={P\bibinithyphendelim N\bibinitperiod},
+           given={Hossein},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Kappa Research}%
+      }
+      \strng{namehash}{33c512a801f6604a8ccf9e8a4570a45e}
+      \strng{fullhash}{33c512a801f6604a8ccf9e8a4570a45e}
+      \strng{bibnamehash}{33c512a801f6604a8ccf9e8a4570a45e}
+      \strng{authorbibnamehash}{33c512a801f6604a8ccf9e8a4570a45e}
+      \strng{authornamehash}{33c512a801f6604a8ccf9e8a4570a45e}
+      \strng{authorfullhash}{33c512a801f6604a8ccf9e8a4570a45e}
+      \field{labelalpha}{Pis14}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to Probability, Statistics, and Random Processes}
+      \field{year}{2014}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

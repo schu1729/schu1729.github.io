@@ -29,8 +29,9 @@
 
 <body>
 <div>
-<h2 class="section">Order of Operations</h2>
+
 <div class='main'>
+	<h2 class="section">Order of Operations</h2>
 	<div class="def"><div class="def_head">We have to agree on how to evaluate expressions</div>
 	<p>We need to agree on how to read a series of numbers and operations on those numbers so that we can all agree as to what it evaluates to. In the absence of established rule as to the order of operations, the expression $2\cdot 3+4$ could evaluate to 14 or 10 depending on whether one does addition or multiplication first. This would make reading someone else's mathematical work very difficult if you had to adapt to the author's convention each time you read a  different author. It is important to realize that PEMDAS is just a convention that we all agree upon, similar to driving on the right side of the road. It is unlike other mneumonic devices in that it is an arbritrary convention. Compare this to All Student Take Calculus as a way to remember the respective signs of trigonometric functions in each quadrant of the coordinate plane. If you understand the trig function, you don't need the mneumonic. It is not convention but definition and reasoning that underlie the mneumonic.
 
@@ -44,7 +45,8 @@
 		</ul>
 	</div>
 	
-	<p>It is necessary to be able to read mathematical expressions encountered in various contexts, but there are some practices in writing expressions that I think can clarify certain vague cases in using PEMDAS. 	
+	<p>It is necessary to be able to read mathematical expressions encountered in various contexts, but there are some practices in writing expressions that I think can clarify certain vague cases in using PEMDAS. 
+	
 <h2 class="section">Operations with Functions</h2>
 <div class='main'>
 <p> You can create new functions from old functions using the arithmetic operations. For example, let $f(x)=2x$ and $g(x)=x^2-x$. Then we can define a new function $h$ using $f$, $g$, and addition, subtraction, multiplication or division.
@@ -58,19 +60,19 @@
 
 		</div>
 		<div class='ex'>
-			<img class='ex' src='icons/book135.svg'>
+			<img class='ex' src='../icons/book135.svg'>
 			Let $f(x)=x^2+1$ and $g(x)=3x-4$. Then the new <em>function</em> $f$ composed with $g$ can be written as either $(f\circ g)(x)$ or $f(g(x))$. And since $f$ and $g$ are nice polynomials you can give the explicit rule for $f$ composed with $g$ as follows:
 			<p>$\begin{array}{r l} f(g(x))& =f(3x-4)\\ & = (3x-4)^2+1\\ & = 9x^2-24x+16+1\\ & =9x^2-24x+17 \end{array}$
 
 		</div>
 		<div class='ex'>
-			<img class='ex' src='icons/book135.svg'>
+			<img class='ex' src='../icons/book135.svg'>
 			We are not restricted to polynomials. Let $f(x)=|2x-1|$ and $g(x)=3\sin (\pi x)$. Then $(g \circ f)(x)$ can be found as follows:
 			<p>$\begin{array}{r l} (g \circ f)(x) &= g(f(x))\\ &= g(|2x-1|)\\ &= 3\sin(\pi|2x-1|) \end{array}$
 		</div>
 	<p>A good way to build intution as to what these operations with functions create is by looking at the graphs of some of the outcomes. For each of the following pairs of functions first create the new function algebraically as indicated by the operation between them, and then try to sketch what this new function looks like. Lastly actually check your sketch in desmos by following the link.
 	<div class='ex'>
-		<img class='ex' src='icons/gears3.svg'>
+		<img class='ex' src='../icons/gears3.svg'>
 		<ol class='ex'>
 			<li> Let $f(x)=2x$ and $g(x)=-2x$. Form $(f+g)(x)$, $(f-g)(x)$, $(fg)(x)$, and $(f/g)(x)$. <a href='https://www.desmos.com/calculator/j0frhwrkll'>Check</a> your sketches.</li> 
 			<li> This one's a little harder. Let $f(x)=x^2$ and $g(x)=2\sin (3x)$. Form $(f+g)(x)$, $(f-g)(x)$, $(fg)(x)$, and $(g/f)(x)$. <a href='https://www.desmos.com/calculator/xedcjjdzhe'>Check</a> your sketch.</li>
@@ -89,7 +91,7 @@
 <!-- Here should be a multiple choice, check your understanding type thing...
 	This requires referencing a js file specific to this html file.
 -->
-<div class="quiz"><img class='ex' src='icons/pen.svg'><button class="qq" id='qqb1' onclick='openQ()'>A quick quiz.</button>
+<div class="quiz"><img class='ex' src='../icons/pen.svg'><button class="qq" id='qqb1' onclick='openQ()'>A quick quiz.</button>
 	<div class="overlay" id="qq1">
 		<a href='javascript:void(0)' class='closebtn' onclick='closeQ()'>&times;</a>
 		<!--quiz content-->
@@ -112,7 +114,7 @@
 
 <div id="footer">
 	<div class="flower">h</div>
-	<a href="index.html">Table of Contents</a><a href="work.html">Problem Sets/Handouts</a>
+	<a href="../index.html">Table of Contents</a><a href="../work.html">Problem Sets/Handouts</a>
 </div>
 </body>
 </html>

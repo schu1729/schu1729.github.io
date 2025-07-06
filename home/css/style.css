@@ -84,7 +84,7 @@ h3{
 	padding-left:15%;
 }
 .songbox{
-	margin-top: 100px;
+	margin-top: 50px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -92,7 +92,9 @@ h3{
 	
 }
 .section{
+	position: absolute;
 	display: inline-block;
+	margin-left: 10px;
 
 }
 .songpic{

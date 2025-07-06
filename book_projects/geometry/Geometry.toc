@@ -1,0 +1,29 @@
+\contentsline {chapter}{\tocchapter {Chapter}{}{Preface}}{5}{chapter*.1}%
+\contentsline {chapter}{\tocchapter {Chapter}{1}{Pythagorean Theorem}}{7}{chapter.1}%
+\contentsline {chapter}{\tocchapter {Chapter}{2}{Objects of Geometry}}{11}{chapter.2}%
+\contentsline {chapter}{\tocchapter {Chapter}{3}{Lines}}{13}{chapter.3}%
+\contentsline {section}{\tocsection {}{1}{Lines with Coordinates}}{13}{section.3.1}%
+\contentsline {section}{\tocsection {}{2}{Vectors}}{13}{section.3.2}%
+\contentsline {section}{\tocsection {}{3}{Parametric Lines}}{13}{section.3.3}%
+\contentsline {section}{\tocsection {}{4}{Lines without Coordinates}}{13}{section.3.4}%
+\contentsline {chapter}{\tocchapter {Chapter}{4}{Angles and Polygons}}{15}{chapter.4}%
+\contentsline {section}{\tocsection {}{1}{Triangles}}{15}{section.4.1}%
+\contentsline {section}{\tocsection {}{2}{Polygons}}{15}{section.4.2}%
+\contentsline {chapter}{\tocchapter {Chapter}{5}{In Depth with Triangles}}{17}{chapter.5}%
+\contentsline {section}{\tocsection {}{1}{Congruent Triangles}}{17}{section.5.1}%
+\contentsline {section}{\tocsection {}{2}{Points of Concurrency}}{17}{section.5.2}%
+\contentsline {chapter}{\tocchapter {Chapter}{6}{Quadrilaterals}}{19}{chapter.6}%
+\contentsline {chapter}{\tocchapter {Chapter}{7}{More Coordinate Geometry}}{21}{chapter.7}%
+\contentsline {chapter}{\tocchapter {Chapter}{8}{Isometries}}{23}{chapter.8}%
+\contentsline {section}{\tocsection {}{1}{Translations}}{23}{section.8.1}%
+\contentsline {section}{\tocsection {}{2}{Rotations}}{23}{section.8.2}%
+\contentsline {section}{\tocsection {}{3}{Reflections}}{23}{section.8.3}%
+\contentsline {section}{\tocsection {}{4}{Glide Reflections}}{23}{section.8.4}%
+\contentsline {section}{\tocsection {}{5}{Composition of Isometries}}{23}{section.8.5}%
+\contentsline {section}{\tocsection {}{6}{Symmetries}}{23}{section.8.6}%
+\contentsline {chapter}{\tocchapter {Chapter}{9}{Similarity}}{25}{chapter.9}%
+\contentsline {chapter}{\tocchapter {Chapter}{10}{Trigonometry}}{27}{chapter.10}%
+\contentsline {chapter}{\tocchapter {Chapter}{11}{Area}}{29}{chapter.11}%
+\contentsline {chapter}{\tocchapter {Chapter}{12}{Volume and 3 space}}{31}{chapter.12}%
+\contentsline {chapter}{\tocchapter {Chapter}{13}{Circles}}{33}{chapter.13}%
+\contentsline {chapter}{\tocchapter {Chapter}{14}{Answers}}{35}{chapter.14}%

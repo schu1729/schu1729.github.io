@@ -1,0 +1,20 @@
+\contentsline {chapter}{\tocchapter {Chapter}{}{Preface}}{5}{chapter*.1}%
+\contentsline {chapter}{\tocchapter {Chapter}{1}{Logic \& Sets}}{7}{chapter.1}%
+\contentsline {section}{\tocsection {}{1}{Set Notation}}{7}{section.1.1}%
+\contentsline {section}{\tocsection {}{2}{Operations with Sets and Venn Diagrams}}{8}{section.1.2}%
+\contentsline {section}{\tocsection {}{3}{Pigeon Hole Principle}}{9}{section.1.3}%
+\contentsline {chapter}{\tocchapter {Chapter}{2}{Combinatorics}}{11}{chapter.2}%
+\contentsline {section}{\tocsection {}{1}{Multiplication Principle}}{11}{section.2.1}%
+\contentsline {section}{\tocsection {}{2}{Addition Principle}}{12}{section.2.2}%
+\contentsline {section}{\tocsection {}{3}{Complements}}{13}{section.2.3}%
+\contentsline {section}{\tocsection {}{4}{Permutations}}{13}{section.2.4}%
+\contentsline {section}{\tocsection {}{5}{Combinations}}{14}{section.2.5}%
+\contentsline {chapter}{\tocchapter {Chapter}{3}{Probability}}{17}{chapter.3}%
+\contentsline {section}{\tocsection {}{1}{Basic Probability}}{17}{section.3.1}%
+\contentsline {section}{\tocsection {}{2}{Independent Events}}{17}{section.3.2}%
+\contentsline {section}{\tocsection {}{3}{Conditional Probability}}{17}{section.3.3}%
+\contentsline {section}{\tocsection {}{4}{Bayes' Theorem}}{17}{section.3.4}%
+\contentsline {section}{\tocsection {}{5}{Binomial Probability}}{17}{section.3.5}%
+\contentsline {section}{\tocsection {}{6}{Expected Value}}{17}{section.3.6}%
+\contentsline {chapter}{\tocchapter {Chapter}{4}{Answers}}{19}{chapter.4}%
+\contentsline {chapter}{\tocchapter {Chapter}{}{Bibliography}}{25}{chapter*.16}%

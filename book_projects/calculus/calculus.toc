@@ -32,16 +32,16 @@
 \contentsline {section}{\tocsection {}{3}{FTC part 2}}{17}{section.6.3}%
 \contentsline {section}{\tocsection {}{4}{Functions Defined by an Integral}}{17}{section.6.4}%
 \contentsline {section}{\tocsection {}{5}{Integral as Accumulator}}{17}{section.6.5}%
-\contentsline {section}{\tocsection {}{6}{Probabilty Distributions}}{17}{section.6.6}%
-\contentsline {chapter}{\tocchapter {Chapter}{7}{Logarithms and Exponentials}}{19}{chapter.7}%
+\contentsline {section}{\tocsection {}{6}{U Substitution}}{17}{section.6.6}%
+\contentsline {section}{\tocsection {}{7}{Probabilty Distributions}}{17}{section.6.7}%
+\contentsline {chapter}{\tocchapter {Chapter}{7}{Logarithms, Exponentials, and Inverses}}{19}{chapter.7}%
 \contentsline {chapter}{\tocchapter {Chapter}{8}{Methods of Integration}}{21}{chapter.8}%
-\contentsline {section}{\tocsection {}{1}{U Substitution}}{21}{section.8.1}%
-\contentsline {section}{\tocsection {}{2}{Integration by Parts}}{21}{section.8.2}%
-\contentsline {section}{\tocsection {}{3}{Method of Partial Fractions}}{21}{section.8.3}%
-\contentsline {section}{\tocsection {}{4}{Trigonometric Substitutions}}{21}{section.8.4}%
-\contentsline {section}{\tocsection {}{5}{Improper Integrals}}{21}{section.8.5}%
+\contentsline {section}{\tocsection {}{1}{Integration by Parts}}{21}{section.8.1}%
+\contentsline {section}{\tocsection {}{2}{Method of Partial Fractions}}{21}{section.8.2}%
+\contentsline {section}{\tocsection {}{3}{Trigonometric Substitutions}}{21}{section.8.3}%
+\contentsline {section}{\tocsection {}{4}{Improper Integrals}}{21}{section.8.4}%
 \contentsline {chapter}{\tocchapter {Chapter}{9}{Differential Equations}}{23}{chapter.9}%
-\contentsline {chapter}{\tocchapter {Chapter}{10}{Applications of Integration}}{25}{chapter.10}%
+\contentsline {chapter}{\tocchapter {Chapter}{10}{More Applications of Integration}}{25}{chapter.10}%
 \contentsline {chapter}{\tocchapter {Chapter}{11}{Infinite Series}}{27}{chapter.11}%
 \contentsline {chapter}{\tocchapter {Chapter}{12}{Conics, Parametric Equations, Polar Coordinates}}{29}{chapter.12}%
 \contentsline {chapter}{\tocchapter {Chapter}{13}{Vectors and the Geometry of $\mathbb {R}^3$}}{31}{chapter.13}%
@@ -54,17 +54,18 @@
 \contentsline {subsection}{\tocsubsection {}{}{First Let's Look at Tangent Lines to a Parabola}}{41}{section*.4}%
 \contentsline {subsection}{\tocsubsection {}{}{Descartes' Method Of Normals}}{41}{section*.5}%
 \contentsline {section}{\tocsection {}{1}{An Algorithm to Find Roots}}{42}{section.18.1}%
-\contentsline {section}{\tocsection {}{2}{Efficient Foraging}}{42}{section.18.2}%
-\contentsline {section}{\tocsection {}{3}{When is Venus Bright in the Sky?}}{42}{section.18.3}%
-\contentsline {section}{\tocsection {}{4}{Rainbows}}{42}{section.18.4}%
-\contentsline {section}{\tocsection {}{5}{Constructing the Demand Curve}}{42}{section.18.5}%
-\contentsline {section}{\tocsection {}{6}{The Shape of Bee Hive Cells}}{42}{section.18.6}%
-\contentsline {section}{\tocsection {}{7}{The Art Gallery Problem}}{42}{section.18.7}%
-\contentsline {section}{\tocsection {}{8}{Getting to $\pi $ using Integration by Parts}}{42}{section.18.8}%
-\contentsline {section}{\tocsection {}{9}{Predicting Peak Oil}}{42}{section.18.9}%
-\contentsline {section}{\tocsection {}{10}{SIR: A Model for the Spread of Infectious Disease}}{42}{section.18.10}%
-\contentsline {section}{\tocsection {}{11}{Modeling Air Resistance}}{42}{section.18.11}%
-\contentsline {section}{\tocsection {}{12}{A Model for Combat}}{42}{section.18.12}%
-\contentsline {section}{\tocsection {}{13}{A Model for Relationships}}{42}{section.18.13}%
-\contentsline {chapter}{\tocchapter {Chapter}{19}{Answers}}{43}{chapter.19}%
-\contentsline {chapter}{\tocchapter {Chapter}{}{Bibliography}}{45}{chapter*.6}%
+\contentsline {section}{\tocsection {}{2}{Instantaneous Rate of Turning}}{43}{section.18.2}%
+\contentsline {section}{\tocsection {}{3}{Efficient Foraging}}{44}{section.18.3}%
+\contentsline {section}{\tocsection {}{4}{When is Venus Bright in the Sky?}}{45}{section.18.4}%
+\contentsline {section}{\tocsection {}{5}{Rainbows}}{46}{section.18.5}%
+\contentsline {section}{\tocsection {}{6}{Constructing the Demand Curve}}{47}{section.18.6}%
+\contentsline {section}{\tocsection {}{7}{The Shape of Bee Hive Cells}}{48}{section.18.7}%
+\contentsline {section}{\tocsection {}{8}{The Art Gallery Problem}}{49}{section.18.8}%
+\contentsline {section}{\tocsection {}{9}{Getting to $\pi $ using Integration by Parts}}{50}{section.18.9}%
+\contentsline {section}{\tocsection {}{10}{Predicting Peak Oil}}{51}{section.18.10}%
+\contentsline {section}{\tocsection {}{11}{SIR: A Model for the Spread of Infectious Disease}}{52}{section.18.11}%
+\contentsline {section}{\tocsection {}{12}{Modeling Air Resistance}}{53}{section.18.12}%
+\contentsline {section}{\tocsection {}{13}{A Model for Combat}}{54}{section.18.13}%
+\contentsline {section}{\tocsection {}{14}{A Model for Relationships}}{55}{section.18.14}%
+\contentsline {chapter}{\tocchapter {Chapter}{19}{Answers}}{57}{chapter.19}%
+\contentsline {chapter}{\tocchapter {Chapter}{}{Bibliography}}{59}{chapter*.6}%

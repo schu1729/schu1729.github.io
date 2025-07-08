@@ -1,0 +1,41 @@
+header{
+	background-color: orange;
+	color: #233;
+	padding: 10px;
+	margin: 0px;
+	text-align: center;
+	opacity: 0.85;
+	font-size: 28px;
+}
+
+body{
+	
+}
+p {
+	font-size: 18px;
+	font-family: Georgia;
+}
+
+.instructions p{
+	padding-left: 20px;
+}
+.cpof{
+	padding: 20px;
+	
+}
+.pictext{
+	display: flex;
+  	align-items: flex-start; /* Aligns text vertically with the image */
+  	gap: 20px; /* Adds space between the image and text */
+  	padding:20px;
+  	
+}
+.pictext p{
+	width:60%;
+	color: #233;
+}
+.date{
+	font-family: Georgia;
+	font-size: 16px;
+	font-weight: bold;
+}

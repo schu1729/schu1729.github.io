@@ -7,7 +7,14 @@ header{
 	opacity: 0.85;
 	font-size: 28px;
 }
-
+footer{
+	background-color: orange;
+	color: #233;
+	padding: 10px;
+	margin:0px;
+	opacity:.85;
+	height:20px;
+}
 body{
 	
 }

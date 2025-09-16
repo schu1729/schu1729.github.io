@@ -1,0 +1,11 @@
+\contentsline {chapter}{\tocchapter {Chapter}{}{Preface}}{5}{chapter*.1}%
+\contentsline {chapter}{\tocchapter {Chapter}{1}{Counting Stones}}{7}{chapter.1}%
+\contentsline {section}{\tocsection {}{}{Counting}}{7}{section*.2}%
+\contentsline {section}{\tocsection {}{}{Factors}}{7}{section*.3}%
+\contentsline {section}{\tocsection {}{}{Primes}}{7}{section*.4}%
+\contentsline {section}{\tocsection {}{}{Counting Rearrangements}}{7}{section*.5}%
+\contentsline {chapter}{\tocchapter {Chapter}{2}{Length \& the Number Line}}{9}{chapter.2}%
+\contentsline {chapter}{\tocchapter {Chapter}{3}{Where Are We?}}{11}{chapter.3}%
+\contentsline {chapter}{\tocchapter {Chapter}{4}{Getting from A to B}}{13}{chapter.4}%
+\contentsline {chapter}{\tocchapter {Chapter}{5}{Letting Things Vary}}{15}{chapter.5}%
+\contentsline {chapter}{\tocchapter {Chapter}{}{Answers to Selected Exercises}}{17}{chapter*.6}%

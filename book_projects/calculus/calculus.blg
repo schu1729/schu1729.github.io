@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'calculus.blg'
-[178] biber-MSWIN64:340> INFO - === 
-[241] Biber.pm:419> INFO - Reading 'calculus.bcf'
-[432] Biber.pm:979> INFO - Found 3 citekeys in bib section 0
-[448] Biber.pm:4419> INFO - Processing section 0
-[465] Biber.pm:4610> INFO - Looking for bibtex file 'calc.bib' for section 0
-[569] bibtex.pm:1713> INFO - LaTeX decoding ...
-[582] bibtex.pm:1519> INFO - Found BibTeX data source 'calc.bib'
-[666] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[666] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[667] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
-[667] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[672] bbl.pm:660> INFO - Writing 'calculus.bbl' with encoding 'UTF-8'
-[675] bbl.pm:763> INFO - Output to calculus.bbl
+[320] biber-MSWIN64:340> INFO - === 
+[400] Biber.pm:419> INFO - Reading 'calculus.bcf'
+[545] Biber.pm:979> INFO - Found 3 citekeys in bib section 0
+[562] Biber.pm:4419> INFO - Processing section 0
+[579] Biber.pm:4610> INFO - Looking for bibtex file 'calc.bib' for section 0
+[698] bibtex.pm:1713> INFO - LaTeX decoding ...
+[725] bibtex.pm:1519> INFO - Found BibTeX data source 'calc.bib'
+[802] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[803] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[803] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
+[803] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[807] bbl.pm:660> INFO - Writing 'calculus.bbl' with encoding 'UTF-8'
+[809] bbl.pm:763> INFO - Output to calculus.bbl

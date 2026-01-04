@@ -19,6 +19,31 @@
 
 \refsection{0}
   \datalist[entry]{ynt/global//global/global}
+    \entry{spk}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ee3293a9c2577bc8e7bb84e4d67e85c5}{%
+           family={Spivak},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Publish or Perish Inc}%
+      }
+      \strng{namehash}{ee3293a9c2577bc8e7bb84e4d67e85c5}
+      \strng{fullhash}{ee3293a9c2577bc8e7bb84e4d67e85c5}
+      \strng{bibnamehash}{ee3293a9c2577bc8e7bb84e4d67e85c5}
+      \strng{authorbibnamehash}{ee3293a9c2577bc8e7bb84e4d67e85c5}
+      \strng{authornamehash}{ee3293a9c2577bc8e7bb84e4d67e85c5}
+      \strng{authorfullhash}{ee3293a9c2577bc8e7bb84e4d67e85c5}
+      \field{labelalpha}{Spi94}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Calculus}
+      \field{year}{1994}
+    \endentry
     \entry{mcirc}{book}{}
       \name{author}{3}{}{%
         {{hash=d745785b24bd7d02900122ba5d349103}{%
@@ -73,31 +98,6 @@
       \field{edition}{2nd}
       \field{title}{Introduction to Counting and Probability}
       \field{year}{2004}
-    \endentry
-    \entry{hpn}{book}{}
-      \name{author}{1}{}{%
-        {{hash=33c512a801f6604a8ccf9e8a4570a45e}{%
-           family={Pishro-Nik},
-           familyi={P\bibinithyphendelim N\bibinitperiod},
-           given={Hossein},
-           giveni={H\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Kappa Research}%
-      }
-      \strng{namehash}{33c512a801f6604a8ccf9e8a4570a45e}
-      \strng{fullhash}{33c512a801f6604a8ccf9e8a4570a45e}
-      \strng{bibnamehash}{33c512a801f6604a8ccf9e8a4570a45e}
-      \strng{authorbibnamehash}{33c512a801f6604a8ccf9e8a4570a45e}
-      \strng{authornamehash}{33c512a801f6604a8ccf9e8a4570a45e}
-      \strng{authorfullhash}{33c512a801f6604a8ccf9e8a4570a45e}
-      \field{labelalpha}{Pis14}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Introduction to Probability, Statistics, and Random Processes}
-      \field{year}{2014}
     \endentry
   \enddatalist
 \endrefsection

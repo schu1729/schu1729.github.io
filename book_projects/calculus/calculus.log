@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.4)  24 SEP 2025 15:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.4)  6 MAR 2026 19:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1362,11 +1362,7 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))
 \@quotelevel=\count481
 \@quotereset=\count482
- (calculus.aux
-
-LaTeX Warning: Label `2c1-Answer' multiply defined.
-
-)
+ (calculus.aux)
 \openout1 = `calculus.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -1389,7 +1385,8 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
 
- (C:\Users\schu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+
+(C:\Users\schu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
@@ -1487,10 +1484,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
 [9] [10]
 Chapter 2
-
-LaTeX Warning: Hyper reference `2b1-Answer' on page 11 undefined on input line 
-154.
-
 [11
 
 
@@ -1529,12 +1522,46 @@ Chapter 6
 
 ]
 Chapter 7
-[21] [22
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+
+ []
 
 
-]
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
+
+ []
+
+
+Package Exercise Warning: An answer has no reference and no number on input lin
+e 356.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+
+ []
+
+[21] [22]
 Chapter 8
-[23] [24
+[23
+
+
+] [24
 
 
 ]
@@ -1561,15 +1588,15 @@ Chapter 12
 Chapter 13
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 382.
+(hyperref)                removing `math shift' on input line 439.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 382.
+(hyperref)                removing `superscript' on input line 439.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 382.
+(hyperref)                removing `math shift' on input line 439.
 
 [33] [34
 
@@ -1593,23 +1620,23 @@ Chapter 16
 Chapter 17
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 390.
+(hyperref)                removing `math shift' on input line 447.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 390.
+(hyperref)                removing `superscript' on input line 447.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\to' on input line 390.
+(hyperref)                removing `\to' on input line 447.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 390.
+(hyperref)                removing `superscript' on input line 447.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 390.
+(hyperref)                removing `math shift' on input line 447.
 
 [41] [42
 
@@ -1617,142 +1644,142 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 ]
 Chapter 18
 [43]
-Underfull \hbox (badness 10000) in paragraph at lines 398--399
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
+Underfull \hbox (badness 10000) in paragraph at lines 457--458
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--403
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--405
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
 
  []
 
 [44]
-Underfull \hbox (badness 10000) in paragraph at lines 414--415
+Underfull \hbox (badness 10000) in paragraph at lines 471--472
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 418--419
+Underfull \hbox (badness 10000) in paragraph at lines 475--476
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 419--420
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--421
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--422
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 422--423
+Underfull \hbox (badness 10000) in paragraph at lines 479--480
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 423--424
+Underfull \hbox (badness 10000) in paragraph at lines 480--481
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--426
+Underfull \hbox (badness 10000) in paragraph at lines 482--483
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--429
+Underfull \hbox (badness 10000) in paragraph at lines 484--486
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--430
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
 
  []
 
 [45] [46] [47]
-Underfull \hbox (badness 10000) in paragraph at lines 447--451
+Underfull \hbox (badness 10000) in paragraph at lines 504--508
 
  []
 
-<b.png, id=707, 489.32813pt x 403.5075pt>
+<b.png, id=732, 489.32813pt x 403.5075pt>
 File: b.png Graphic file (type png)
 <use b.png>
-Package pdftex.def Info: b.png  used on input line 477.
+Package pdftex.def Info: b.png  used on input line 534.
 (pdftex.def)             Requested size: 244.66345pt x 201.75325pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 474--478
+Underfull \hbox (badness 10000) in paragraph at lines 531--535
 
  []
 
 [48]
-<c.png, id=727, 525.46312pt x 155.83218pt>
+<c.png, id=752, 525.46312pt x 155.83218pt>
 File: c.png Graphic file (type png)
 <use c.png>
-Package pdftex.def Info: c.png  used on input line 484.
+Package pdftex.def Info: c.png  used on input line 541.
 (pdftex.def)             Requested size: 289.0056pt x 85.70796pt.
-<d.png, id=728, 594.72188pt x 153.57375pt>
+<d.png, id=753, 594.72188pt x 153.57375pt>
 File: d.png Graphic file (type png)
 <use d.png>
-Package pdftex.def Info: d.png  used on input line 488.
+Package pdftex.def Info: d.png  used on input line 545.
 (pdftex.def)             Requested size: 327.09804pt x 84.4658pt.
  [49 <./b.png> <./c.png> <./d.png>]
-<e.png, id=744, 559.33969pt x 240.14719pt>
+<e.png, id=769, 559.33969pt x 240.14719pt>
 File: e.png Graphic file (type png)
 <use e.png>
-Package pdftex.def Info: e.png  used on input line 495.
+Package pdftex.def Info: e.png  used on input line 552.
 (pdftex.def)             Requested size: 419.50374pt x 180.10992pt.
 
-Overfull \hbox (59.50374pt too wide) in paragraph at lines 495--496
+Overfull \hbox (59.50374pt too wide) in paragraph at lines 552--553
  [][] 
  []
 
 
-Overfull \hbox (14.723pt too wide) in paragraph at lines 497--509
+Overfull \hbox (14.723pt too wide) in paragraph at lines 554--566
 [] 
  []
 
 [50 <./e.png>] [51]
-<earthvenus.png, id=770, 729.85172pt x 547.6711pt>
+<earthvenus.png, id=795, 729.85172pt x 547.6711pt>
 File: earthvenus.png Graphic file (type png)
 <use earthvenus.png>
-Package pdftex.def Info: earthvenus.png  used on input line 536.
+Package pdftex.def Info: earthvenus.png  used on input line 593.
 (pdftex.def)             Requested size: 328.43024pt x 246.4497pt.
-<ve_a.png, id=771, 605.26125pt x 503.63156pt>
+<ve_a.png, id=796, 605.26125pt x 503.63156pt>
 File: ve_a.png Graphic file (type png)
 <use ve_a.png>
-Package pdftex.def Info: ve_a.png  used on input line 540.
+Package pdftex.def Info: ve_a.png  used on input line 597.
 (pdftex.def)             Requested size: 242.1002pt x 201.44905pt.
-<ve_b.png, id=772, 551.81157pt x 341.02406pt>
+<ve_b.png, id=797, 551.81157pt x 341.02406pt>
 File: ve_b.png Graphic file (type png)
 <use ve_b.png>
-Package pdftex.def Info: ve_b.png  used on input line 540.
+Package pdftex.def Info: ve_b.png  used on input line 597.
 (pdftex.def)             Requested size: 303.4973pt x 187.56381pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1761,112 +1788,105 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1264) has occurred while \output is active []
 
  [53 <./ve_a.png> <./ve_b.png>] [54]
-<snell.png, id=805, 256.70906pt x 232.99547pt>
+<snell.png, id=830, 256.70906pt x 232.99547pt>
 File: snell.png Graphic file (type png)
 <use snell.png>
-Package pdftex.def Info: snell.png  used on input line 562.
+Package pdftex.def Info: snell.png  used on input line 619.
 (pdftex.def)             Requested size: 192.53131pt x 174.74615pt.
-<reflect.png, id=806, 294.34969pt x 224.71454pt>
+<reflect.png, id=831, 294.34969pt x 224.71454pt>
 File: reflect.png Graphic file (type png)
 <use reflect.png>
-Package pdftex.def Info: reflect.png  used on input line 580.
+Package pdftex.def Info: reflect.png  used on input line 637.
 (pdftex.def)             Requested size: 191.32501pt x 146.0627pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [55 <./snell.png>]
-<raindrop.png, id=821, 596.2275pt x 607.26875pt>
+<raindrop.png, id=846, 596.2275pt x 607.26875pt>
 File: raindrop.png Graphic file (type png)
 <use raindrop.png>
-Package pdftex.def Info: raindrop.png  used on input line 587.
+Package pdftex.def Info: raindrop.png  used on input line 644.
 (pdftex.def)             Requested size: 208.68274pt x 212.54724pt.
  [56 <./reflect.png> <./raindrop.png>] [57]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [58]
 [59]
-Underfull \hbox (badness 10000) in paragraph at lines 680--682
+Underfull \hbox (badness 10000) in paragraph at lines 737--739
 
  []
 
-<bees_a.png, id=869, 311.66437pt x 350.81062pt>
+<bees_a.png, id=894, 311.66437pt x 350.81062pt>
 File: bees_a.png Graphic file (type png)
 <use bees_a.png>
-Package pdftex.def Info: bees_a.png  used on input line 683.
+Package pdftex.def Info: bees_a.png  used on input line 740.
 (pdftex.def)             Requested size: 140.24767pt x 157.86331pt.
-<bees_b.png, id=870, 292.84406pt x 357.58594pt>
+<bees_b.png, id=895, 292.84406pt x 357.58594pt>
 File: bees_b.png Graphic file (type png)
 <use bees_b.png>
-Package pdftex.def Info: bees_b.png  used on input line 686.
+Package pdftex.def Info: bees_b.png  used on input line 743.
 (pdftex.def)             Requested size: 131.7786pt x 160.91217pt.
 [60 <./bees_a.png> <./bees_b.png>] [61]
-<gall_a.png, id=898, 362.10281pt x 202.88297pt>
+<gall_a.png, id=923, 362.10281pt x 202.88297pt>
 File: gall_a.png Graphic file (type png)
 <use gall_a.png>
-Package pdftex.def Info: gall_a.png  used on input line 712.
+Package pdftex.def Info: gall_a.png  used on input line 769.
 (pdftex.def)             Requested size: 108.63167pt x 60.86536pt.
  [62 <./gall_a.png>] [63]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 744.
+(hyperref)                removing `math shift' on input line 801.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pi' on input line 744.
+(hyperref)                removing `\pi' on input line 801.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 744.
+(hyperref)                removing `math shift' on input line 801.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 745--747
+Underfull \hbox (badness 10000) in paragraph at lines 802--804
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 747--748
+Underfull \hbox (badness 10000) in paragraph at lines 804--805
 
  []
 
 [64] [65] [66] [67] [68] [69]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 774.
+(hyperref)                removing `math shift' on input line 831.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 774.
+(hyperref)                removing `\@ifnextchar' on input line 831.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pi' on input line 774.
+(hyperref)                removing `\pi' on input line 831.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 774.
+(hyperref)                removing `math shift' on input line 831.
 
 [70]
 Chapter 19
 [71
 
 
-] [72
-
-
-]
+] [72]
 Bibliography
-[73] (calculus.aux)
+[73
+
+
+] (calculus.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `calculus.out' has not changed.
 (rerunfilecheck)             Checksum: 54D56A75C9CD1EAD516FB493ADC07A4F;16463.
 Package logreq Info: Writing requests to 'calculus.run.xml'.
@@ -1874,10 +1894,10 @@ Package logreq Info: Writing requests to 'calculus.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36575 strings out of 474486
- 734723 string characters out of 5744228
- 1945542 words of memory out of 5000000
- 57712 multiletter control sequences out of 15000+600000
+ 36595 strings out of 474486
+ 734898 string characters out of 5744228
+ 1949542 words of memory out of 5000000
+ 57719 multiletter control sequences out of 15000+600000
  565979 words of font info for 67 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  84i,12n,95p,1179b,1483s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1898,9 +1918,9 @@ sy10.pfb><C:/Users/schu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmsy7.pfb><C:/Users/schu/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmti10.pfb><C:/Users/schu/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/symbols/msbm10.pfb>
-Output written on calculus.pdf (73 pages, 1277979 bytes).
+Output written on calculus.pdf (73 pages, 1286730 bytes).
 PDF statistics:
- 1125 PDF objects out of 1200 (max. 8388607)
- 356 named destinations out of 1000 (max. 500000)
+ 1150 PDF objects out of 1200 (max. 8388607)
+ 369 named destinations out of 1000 (max. 500000)
  726 words of extra memory for PDF output out of 10000 (max. 10000000)
 

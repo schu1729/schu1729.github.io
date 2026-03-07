@@ -154,7 +154,7 @@ A polynomial $f$ has the general form $f(x)=a_0+a_1 x + a_2 x^2 + \ldots +a_{n-1
 	\hfill \emph{solution} \refAnswer{2b1}
 \end{Exercise}
 
-\begin{Answer}[ref={2c1}]
+\begin{Answer}[ref={2b1}]
 	blah blah
 \end{Answer}
 
@@ -197,7 +197,7 @@ A polynomial $f$ has the general form $f(x)=a_0+a_1 x + a_2 x^2 + \ldots +a_{n-1
 \section{Intermediate Value Theorem}
 \begin{Exercise}[title={Degree 3 Polynomial with Real Roots}, difficulty=1, label=2d1]
 Let $f(x)=(x-a)(x-b)+(x-b)(x-c)+(x-a)(x-c)$ where $a,b,c$ are distinct real numbers. Prove that $f$ must have 3 real distinct zeroes.
-
+\hfill \emph{solution} \refAnswer{2d1}
 
 \end{Exercise}
 
@@ -216,7 +216,7 @@ Two points on a sphere are antipodal if the line connecting them passes through 
 		\item If you assume that the earth is a sphere and that temperature varies continuously from point to point on the earth, show that there must be a pair of antipodal points that are the same temperature at a given moment in time.\\
 		\item If we also assume that air pressure varies continuously across the earth, show that there must be a pair of antipodal points on the surface of the earth that have the same temperature and air pressure at a given moment in time. \\
 	\end{enumerate}
-
+\hfill \emph{solution} \refAnswer{2d3}
 \end{Exercise}
 
 \begin{Answer}[ref={2d3}]
@@ -224,7 +224,8 @@ Two points on a sphere are antipodal if the line connecting them passes through 
 \end{Answer}
 
 %%%%%%%%%%%
-%%%%%%%%%%5i
+%%%%%%%%%%%
+%%%%%%%%%%
 
 \chapter{The Derivative}
 
@@ -274,6 +275,7 @@ Let $f(x)=|x|$. Use the limit definition of the derivative to show that $f'(x)=\
 
 %%%%%%%%%%
 %%%%%%%%%%%
+%%%%%%%%%%
 
 \chapter{Applications of the Derivative}
 
@@ -285,6 +287,7 @@ Let $f(x)=|x|$. Use the limit definition of the derivative to show that $f'(x)=\
 
 \section{Optimization and Graphing}
 
+%%%%%%%%%
 %%%%%%%%%
 %%%%%%%%%
 
@@ -302,6 +305,7 @@ Let $f(x)=|x|$. Use the limit definition of the derivative to show that $f'(x)=\
 
 %%%%%%%%%%%
 %%%%%%%%%%%%
+%%%%%%%%%%%
 
 \chapter{The Fundamental Theorem of Calculus}
 
@@ -321,19 +325,72 @@ Let $f(x)=|x|$. Use the limit definition of the derivative to show that $f'(x)=\
 
 %%%%%%%%%%%%
 %%%%%%%%%%%
+%%%%%%%%%%%
 
 \chapter{Logarithms, Exponentials, and Inverses}
 
 \section{Logarithms}
+\begin{Exercise}[title={A Better Antiderivative}, difficulty=0, label=7a2]
+We defined the function $L(x):=\displaystyle \int_1^x \dfrac{1}{t}dt$.
+	\begin{enumerate}
+		\item This definition combined with FTC part 2 gives us what relationship between $L(x)$ and the function $f(x)=\dfrac{1}{x}$.\\
+		\item Calculate the derivative of $g(x)=\ln|x|$.\\
+		\item Explain why part a and part b do not contradict the theorem that tells us if a function $f$ has antiderivatives $F$ and $G$ that $F$ and $G$ must differ by a constant.\\
+		
+	\end{enumerate}
+\hfill \emph{solution} \refAnswer{7a2}
+
+
+\end{Exercise}
+
+\begin{Answer}[ref={7a2}]
+
+\end{Answer}
+
+\begin{Exercise}[title={}, difficulty=0, label=7a3]
+
+
+\end{Exercise}
+
+\begin{Answer}
+
+\end{Answer}
+
+\begin{Exercise}[title={A Nice Bound for Log}, difficulty=2, label=7a1]
+Show that for any $0<x<y$, we have the inequality:\\[.5cm] $\dfrac{1}{y} < \dfrac{\ln(y)-\ln(x)}{y-x}< \dfrac{1}{x}$.
+ \hfill \emph{solution} \refAnswer{7a1}
+
+\end{Exercise}
+
+\begin{Answer}[ref={7a1}]
+	Note that the term bounded by $\dfrac{1}{y}$ and $\dfrac{!}{x}$ is the average rate of change of $\ln(x)$. So applying the MVT gives that there is some $c\in [x,y]$ such that $\dfrac{d}{dx} \ln(x)$ at $x=c$ is equal to the average rate of change of log. Finally use that $y=\dfrac{1}{x}$ is decreasing.
+	
+\end{Answer}
+
 
 \section{Inverse Functions}
 
 \section{Exponentials}
 
+\begin{Exercise}[title={$x^y$ vs $y^x$}, difficulty=2, label=7c1]
+Let $f(x)=\dfrac{\ln(x)}{x}$
+\begin{enumerate}
+	\item Determine on what intervals $f$ is strictly increasing versus strictly decreasing.\\
+	\item Use part (a) to show that if $e \leq A < B$ then $A^B > B^A$.\\
+	\item Use part (b) to show that $e^\pi > \pi^e$.\\
+\end{enumerate}
+\hfill \emph{solution} \refAnswer{7c1}
+\end{Exercise}
+
+\begin{Answer}[ref={7c1}]
+After finding f' you can show that f is decreasing on the interval $(e,\infty)$. This implies that since $e<\pi$ we get $f(e)>f(\pi)$. Then multiplying through by $e*\pi$ and taking exponentials base $e$ of both sides gives the result.
+\end{Answer}
+
+
+
 \section{Inverse Trigonometric Functions}
 
 \section{Hyperbolic Trigonometric Functions}
-
 
 
 %%%%%%%%%%

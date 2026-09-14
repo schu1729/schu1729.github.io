@@ -3,84 +3,85 @@
 \contentsline {section}{\tocsection {}{1}{Set Notation and Numbers}}{9}{section.1.1}%
 \contentsline {section}{\tocsection {}{2}{Working with Inequalities}}{10}{section.1.2}%
 \contentsline {section}{\tocsection {}{3}{Polynomials \& Rational Functions}}{10}{section.1.3}%
-\contentsline {section}{\tocsection {}{4}{Trigonometric Functions}}{10}{section.1.4}%
-\contentsline {section}{\tocsection {}{5}{Miscellaneous}}{10}{section.1.5}%
-\contentsline {chapter}{\tocchapter {Chapter}{2}{Limits and Continuity}}{11}{chapter.2}%
-\contentsline {section}{\tocsection {}{1}{Intuitive Notion}}{11}{section.2.1}%
-\contentsline {section}{\tocsection {}{2}{Epsilon and Delta}}{11}{section.2.2}%
-\contentsline {section}{\tocsection {}{3}{Continuity}}{11}{section.2.3}%
-\contentsline {section}{\tocsection {}{4}{Intermediate Value Theorem}}{11}{section.2.4}%
-\contentsline {chapter}{\tocchapter {Chapter}{3}{The Derivative}}{13}{chapter.3}%
-\contentsline {section}{\tocsection {}{1}{Limit Definition and Properties of the Derivative}}{13}{section.3.1}%
-\contentsline {section}{\tocsection {}{2}{Tangent Line Problem}}{13}{section.3.2}%
-\contentsline {section}{\tocsection {}{3}{Higher Order Derivatives}}{13}{section.3.3}%
-\contentsline {section}{\tocsection {}{4}{Power Rule and others}}{13}{section.3.4}%
-\contentsline {section}{\tocsection {}{5}{Implicit Differentiation}}{13}{section.3.5}%
-\contentsline {chapter}{\tocchapter {Chapter}{4}{Applications of the Derivative}}{15}{chapter.4}%
-\contentsline {section}{\tocsection {}{1}{Related Rates}}{15}{section.4.1}%
-\contentsline {section}{\tocsection {}{2}{Mean Value Theorem}}{15}{section.4.2}%
-\contentsline {section}{\tocsection {}{3}{Maximums and Minimums}}{15}{section.4.3}%
-\contentsline {section}{\tocsection {}{4}{Optimization and Graphing}}{15}{section.4.4}%
-\contentsline {chapter}{\tocchapter {Chapter}{5}{The Integral}}{17}{chapter.5}%
-\contentsline {section}{\tocsection {}{1}{Series}}{17}{section.5.1}%
-\contentsline {section}{\tocsection {}{2}{Riemann Sums}}{17}{section.5.2}%
-\contentsline {section}{\tocsection {}{3}{Riemann Integrable}}{17}{section.5.3}%
-\contentsline {section}{\tocsection {}{4}{Properties of the Integral}}{17}{section.5.4}%
-\contentsline {chapter}{\tocchapter {Chapter}{6}{The Fundamental Theorem of Calculus}}{19}{chapter.6}%
-\contentsline {section}{\tocsection {}{1}{Anti-Derivatives}}{19}{section.6.1}%
-\contentsline {section}{\tocsection {}{2}{FTC part I}}{19}{section.6.2}%
-\contentsline {section}{\tocsection {}{3}{FTC part 2}}{19}{section.6.3}%
-\contentsline {section}{\tocsection {}{4}{Functions Defined by an Integral}}{19}{section.6.4}%
-\contentsline {section}{\tocsection {}{5}{Integral as Accumulator}}{19}{section.6.5}%
-\contentsline {section}{\tocsection {}{6}{U Substitution}}{19}{section.6.6}%
-\contentsline {section}{\tocsection {}{7}{Probability Distributions}}{19}{section.6.7}%
-\contentsline {chapter}{\tocchapter {Chapter}{7}{Logarithms, Exponentials, and Inverses}}{21}{chapter.7}%
-\contentsline {section}{\tocsection {}{1}{Logarithms}}{21}{section.7.1}%
-\contentsline {section}{\tocsection {}{2}{Inverse Functions}}{21}{section.7.2}%
-\contentsline {section}{\tocsection {}{3}{Exponentials}}{21}{section.7.3}%
-\contentsline {section}{\tocsection {}{4}{Inverse Trigonometric Functions}}{22}{section.7.4}%
-\contentsline {section}{\tocsection {}{5}{Hyperbolic Trigonometric Functions}}{22}{section.7.5}%
-\contentsline {chapter}{\tocchapter {Chapter}{8}{Methods of Integration}}{23}{chapter.8}%
-\contentsline {section}{\tocsection {}{1}{Integration by Parts}}{23}{section.8.1}%
-\contentsline {section}{\tocsection {}{2}{Method of Partial Fractions}}{23}{section.8.2}%
-\contentsline {section}{\tocsection {}{3}{Trigonometric Substitutions}}{23}{section.8.3}%
-\contentsline {section}{\tocsection {}{4}{Improper Integrals}}{23}{section.8.4}%
-\contentsline {chapter}{\tocchapter {Chapter}{9}{Differential Equations}}{25}{chapter.9}%
-\contentsline {section}{\tocsection {}{1}{Slope Fields and Euler's Method}}{25}{section.9.1}%
-\contentsline {section}{\tocsection {}{2}{Separation of Variables}}{25}{section.9.2}%
-\contentsline {section}{\tocsection {}{3}{Modeling}}{25}{section.9.3}%
-\contentsline {section}{\tocsection {}{4}{Logistic Growth}}{25}{section.9.4}%
-\contentsline {section}{\tocsection {}{5}{Systems of Differential Equations}}{25}{section.9.5}%
-\contentsline {section}{\tocsection {}{6}{Reduce 2nd order equations to two 1st order equations}}{25}{section.9.6}%
-\contentsline {chapter}{\tocchapter {Chapter}{10}{More Applications of Integration}}{27}{chapter.10}%
-\contentsline {chapter}{\tocchapter {Chapter}{11}{Infinite Series}}{29}{chapter.11}%
-\contentsline {chapter}{\tocchapter {Chapter}{12}{Conics, Parametric Equations, Polar Coordinates}}{31}{chapter.12}%
-\contentsline {chapter}{\tocchapter {Chapter}{13}{Vectors and the Geometry of $\mathbb {R}^3$}}{33}{chapter.13}%
-\contentsline {chapter}{\tocchapter {Chapter}{14}{Vector Valued Functions}}{35}{chapter.14}%
-\contentsline {chapter}{\tocchapter {Chapter}{15}{The Partial Derivative and Function of Several Variables}}{37}{chapter.15}%
-\contentsline {chapter}{\tocchapter {Chapter}{16}{The Gradient and the Method of Lagrange Multipliers}}{39}{chapter.16}%
-\contentsline {chapter}{\tocchapter {Chapter}{17}{The Derivative of maps from $\mathbb {R}^n \to \mathbb {R}^m$}}{41}{chapter.17}%
-\contentsline {chapter}{\tocchapter {Chapter}{18}{Longer Problem Sets}}{43}{chapter.18}%
-\contentsline {section}{\tocsection {}{}{Working with Parameters and the Derivative}}{44}{section*.3}%
-\contentsline {subsection}{\tocsubsection {}{}{First Let's Look at Tangent Lines to a Parabola}}{44}{section*.4}%
-\contentsline {subsection}{\tocsubsection {}{}{Descartes' Method Of Normals versus Fermat's Method}}{44}{section*.5}%
-\contentsline {section}{\tocsection {}{}{An Algorithm to Find Roots}}{45}{section*.6}%
-\contentsline {section}{\tocsection {}{}{Instantaneous Rate of Turning}}{47}{section*.7}%
-\contentsline {section}{\tocsection {}{}{Efficient Foraging}}{48}{section*.8}%
-\contentsline {section}{\tocsection {}{}{When is Venus Bright in the Sky?}}{52}{section*.13}%
-\contentsline {section}{\tocsection {}{}{Rainbows}}{55}{section*.16}%
-\contentsline {section}{\tocsection {}{}{Constructing the Demand Curve}}{58}{section*.20}%
-\contentsline {section}{\tocsection {}{}{The Shape of Bee Hive Cells}}{60}{section*.21}%
-\contentsline {section}{\tocsection {}{}{The Art Gallery Problem}}{62}{section*.24}%
-\contentsline {subsection}{\tocsubsection {}{}{Understanding the Problem}}{62}{section*.25}%
-\contentsline {subsection}{\tocsubsection {}{}{A Possible Outline}}{62}{section*.27}%
-\contentsline {subsection}{\tocsubsection {}{}{A More Detailed Outline}}{63}{section*.28}%
-\contentsline {section}{\tocsection {}{}{Getting to $\pi $ using Integration by Parts}}{64}{section*.29}%
-\contentsline {section}{\tocsection {}{}{Predicting Peak Oil}}{65}{section*.30}%
-\contentsline {section}{\tocsection {}{}{SIR: A Model for the Spread of Infectious Disease}}{66}{section*.31}%
-\contentsline {section}{\tocsection {}{}{Modeling Air Resistance}}{67}{section*.32}%
-\contentsline {section}{\tocsection {}{}{A Model for Combat}}{68}{section*.33}%
-\contentsline {section}{\tocsection {}{}{A Model for Relationships}}{69}{section*.34}%
-\contentsline {section}{\tocsection {}{}{Unbounded Integrals and $\sqrt {\pi }$}}{70}{section*.35}%
-\contentsline {chapter}{\tocchapter {Chapter}{19}{Answers}}{71}{chapter.19}%
-\contentsline {chapter}{\tocchapter {Chapter}{}{Bibliography}}{73}{chapter*.36}%
+\contentsline {section}{\tocsection {}{4}{Trigonometric Functions}}{11}{section.1.4}%
+\contentsline {section}{\tocsection {}{5}{Miscellaneous}}{11}{section.1.5}%
+\contentsline {chapter}{\tocchapter {Chapter}{2}{Limits and Continuity}}{13}{chapter.2}%
+\contentsline {section}{\tocsection {}{1}{Intuitive Notion}}{13}{section.2.1}%
+\contentsline {section}{\tocsection {}{2}{Epsilon and Delta}}{13}{section.2.2}%
+\contentsline {section}{\tocsection {}{3}{Continuity}}{13}{section.2.3}%
+\contentsline {section}{\tocsection {}{4}{Intermediate Value Theorem}}{13}{section.2.4}%
+\contentsline {chapter}{\tocchapter {Chapter}{3}{The Derivative}}{15}{chapter.3}%
+\contentsline {section}{\tocsection {}{1}{Limit Definition and Properties of the Derivative}}{15}{section.3.1}%
+\contentsline {section}{\tocsection {}{2}{Tangent Line Problem}}{15}{section.3.2}%
+\contentsline {section}{\tocsection {}{3}{Higher Order Derivatives}}{15}{section.3.3}%
+\contentsline {section}{\tocsection {}{4}{Power Rule and others}}{15}{section.3.4}%
+\contentsline {section}{\tocsection {}{5}{Implicit Differentiation}}{15}{section.3.5}%
+\contentsline {chapter}{\tocchapter {Chapter}{4}{Applications of the Derivative}}{17}{chapter.4}%
+\contentsline {section}{\tocsection {}{1}{Related Rates}}{17}{section.4.1}%
+\contentsline {section}{\tocsection {}{2}{Mean Value Theorem}}{17}{section.4.2}%
+\contentsline {section}{\tocsection {}{3}{Maximums and Minimums}}{17}{section.4.3}%
+\contentsline {section}{\tocsection {}{4}{Optimization and Graphing}}{17}{section.4.4}%
+\contentsline {chapter}{\tocchapter {Chapter}{5}{The Integral}}{19}{chapter.5}%
+\contentsline {section}{\tocsection {}{1}{Series}}{19}{section.5.1}%
+\contentsline {section}{\tocsection {}{2}{Riemann Sums}}{19}{section.5.2}%
+\contentsline {section}{\tocsection {}{3}{Riemann Integrable}}{19}{section.5.3}%
+\contentsline {section}{\tocsection {}{4}{Properties of the Integral}}{19}{section.5.4}%
+\contentsline {chapter}{\tocchapter {Chapter}{6}{The Fundamental Theorem of Calculus}}{21}{chapter.6}%
+\contentsline {section}{\tocsection {}{1}{Anti-Derivatives}}{21}{section.6.1}%
+\contentsline {section}{\tocsection {}{2}{FTC part I}}{21}{section.6.2}%
+\contentsline {section}{\tocsection {}{3}{FTC part 2}}{21}{section.6.3}%
+\contentsline {section}{\tocsection {}{4}{Functions Defined by an Integral}}{21}{section.6.4}%
+\contentsline {section}{\tocsection {}{5}{Integral as Accumulator}}{21}{section.6.5}%
+\contentsline {section}{\tocsection {}{6}{U Substitution}}{21}{section.6.6}%
+\contentsline {section}{\tocsection {}{7}{Probability Distributions}}{21}{section.6.7}%
+\contentsline {chapter}{\tocchapter {Chapter}{7}{Logarithms, Exponentials, and Inverses}}{23}{chapter.7}%
+\contentsline {section}{\tocsection {}{1}{Logarithms}}{23}{section.7.1}%
+\contentsline {section}{\tocsection {}{2}{Inverse Functions}}{23}{section.7.2}%
+\contentsline {section}{\tocsection {}{3}{Exponentials}}{23}{section.7.3}%
+\contentsline {section}{\tocsection {}{4}{Inverse Trigonometric Functions}}{24}{section.7.4}%
+\contentsline {section}{\tocsection {}{5}{Hyperbolic Trigonometric Functions}}{24}{section.7.5}%
+\contentsline {chapter}{\tocchapter {Chapter}{8}{Methods of Integration}}{25}{chapter.8}%
+\contentsline {section}{\tocsection {}{1}{Integration by Parts}}{25}{section.8.1}%
+\contentsline {section}{\tocsection {}{2}{Method of Partial Fractions}}{25}{section.8.2}%
+\contentsline {section}{\tocsection {}{3}{Trigonometric Substitutions}}{25}{section.8.3}%
+\contentsline {section}{\tocsection {}{4}{Improper Integrals}}{25}{section.8.4}%
+\contentsline {chapter}{\tocchapter {Chapter}{9}{Differential Equations}}{27}{chapter.9}%
+\contentsline {section}{\tocsection {}{1}{Slope Fields and Euler's Method}}{27}{section.9.1}%
+\contentsline {section}{\tocsection {}{2}{Separation of Variables}}{27}{section.9.2}%
+\contentsline {section}{\tocsection {}{3}{Modeling}}{27}{section.9.3}%
+\contentsline {section}{\tocsection {}{4}{Logistic Growth}}{27}{section.9.4}%
+\contentsline {section}{\tocsection {}{5}{Systems of Differential Equations}}{27}{section.9.5}%
+\contentsline {section}{\tocsection {}{6}{Reduce 2nd order equations to two 1st order equations}}{27}{section.9.6}%
+\contentsline {chapter}{\tocchapter {Chapter}{10}{More Applications of Integration}}{29}{chapter.10}%
+\contentsline {chapter}{\tocchapter {Chapter}{11}{Infinite Series}}{31}{chapter.11}%
+\contentsline {chapter}{\tocchapter {Chapter}{12}{Conics, Parametric Equations, Polar Coordinates}}{33}{chapter.12}%
+\contentsline {chapter}{\tocchapter {Chapter}{13}{Vectors and the Geometry of $\mathbb {R}^3$}}{35}{chapter.13}%
+\contentsline {chapter}{\tocchapter {Chapter}{14}{Vector Valued Functions}}{37}{chapter.14}%
+\contentsline {chapter}{\tocchapter {Chapter}{15}{The Partial Derivative and Function of Several Variables}}{39}{chapter.15}%
+\contentsline {chapter}{\tocchapter {Chapter}{16}{The Gradient and the Method of Lagrange Multipliers}}{41}{chapter.16}%
+\contentsline {chapter}{\tocchapter {Chapter}{17}{The Derivative of maps from $\mathbb {R}^n \to \mathbb {R}^m$}}{43}{chapter.17}%
+\contentsline {chapter}{\tocchapter {Chapter}{18}{Longer Problem Sets}}{45}{chapter.18}%
+\contentsline {section}{\tocsection {}{}{Working with Parameters and the Derivative}}{46}{section*.3}%
+\contentsline {subsection}{\tocsubsection {}{}{First Let's Look at Tangent Lines to a Parabola}}{46}{section*.4}%
+\contentsline {subsection}{\tocsubsection {}{}{Descartes' Method Of Normals versus Fermat's Method}}{46}{section*.5}%
+\contentsline {section}{\tocsection {}{}{An Algorithm to Find Roots}}{47}{section*.6}%
+\contentsline {section}{\tocsection {}{}{Instantaneous Rate of Turning}}{49}{section*.7}%
+\contentsline {section}{\tocsection {}{}{Efficient Foraging}}{50}{section*.8}%
+\contentsline {section}{\tocsection {}{}{When is Venus Bright in the Sky?}}{54}{section*.13}%
+\contentsline {section}{\tocsection {}{}{Rainbows}}{57}{section*.16}%
+\contentsline {section}{\tocsection {}{}{Constructing the Demand Curve}}{60}{section*.20}%
+\contentsline {section}{\tocsection {}{}{The Shape of Bee Hive Cells}}{62}{section*.21}%
+\contentsline {section}{\tocsection {}{}{The Art Gallery Problem}}{64}{section*.24}%
+\contentsline {subsection}{\tocsubsection {}{}{Understanding the Problem}}{64}{section*.25}%
+\contentsline {subsection}{\tocsubsection {}{}{A Possible Outline}}{64}{section*.27}%
+\contentsline {subsection}{\tocsubsection {}{}{A More Detailed Outline}}{65}{section*.28}%
+\contentsline {section}{\tocsection {}{}{Getting to $\pi $ using Integration by Parts}}{66}{section*.29}%
+\contentsline {section}{\tocsection {}{}{Predicting Peak Oil}}{67}{section*.30}%
+\contentsline {section}{\tocsection {}{}{SIR: A Model for the Spread of Infectious Disease}}{69}{section*.31}%
+\contentsline {section}{\tocsection {}{}{Modeling Air Resistance}}{71}{section*.32}%
+\contentsline {section}{\tocsection {}{}{A Model for Combat}}{73}{section*.33}%
+\contentsline {section}{\tocsection {}{}{A Model for Relationships}}{74}{section*.34}%
+\contentsline {section}{\tocsection {}{}{Unbounded Integrals and $\sqrt {\pi }$}}{75}{section*.35}%
+\contentsline {section}{\tocsection {}{}{A Derivation of the Least Squares Regression Line}}{76}{section*.36}%
+\contentsline {chapter}{\tocchapter {Chapter}{19}{Answers}}{77}{chapter.19}%
+\contentsline {chapter}{\tocchapter {Chapter}{}{Bibliography}}{79}{chapter*.37}%

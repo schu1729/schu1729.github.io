@@ -4,6 +4,7 @@
 \usepackage[colorlinks=true,linkcolor=blue]{hyperref}
 \usepackage{amssymb}
 \usepackage{enumerate}
+\usepackage{enumitem}
 \usepackage{mathtools}
 \usepackage{tikz}
 \usepackage[answerdelayed]{exercise}
@@ -19,6 +20,8 @@
 
 \setlength{\parindent}{0pt}
 \setlength{\listparindent}{0pt}
+\setlist[enumerate]{itemsep=6pt}
+
 \renewcommand{\ExerciseHeaderTitle}{\quad\ExerciseTitle}
 \renewcommand{\AnswerHeader}{\medskip\centerline{\emph{\ExerciseName\ \ExerciseHeaderNB} \smallskip}}
 \renewcommand{\ExerciseHeader}{\medskip\ExerciseHeaderDifficulty{\emph{\ExerciseName\ \ExerciseHeaderNB\ExerciseHeaderTitle} \newline}}
@@ -137,6 +140,22 @@ A polynomial $f$ has the general form $f(x)=a_0+a_1 x + a_2 x^2 + \ldots +a_{n-1
 
 \end{Answer}
 
+\begin{Exercise}[title={Infinity is Not a Number}, difficulty =1, label=1a4]
+   Let $F(x)=\dfrac{x}{2-x}$.\\
+   	\begin{enumerate}
+   		\item We can decompose any function into its even part and its odd part with the following definitions: $f_e(x) =\dfrac{ f(x)+f(-x)}{2}$ and $f_o(x)=\dfrac{f(x)-f(-x)}{2}$.  Find and simplify the even and odd parts of $F(x)$.
+   		\item Graph $F_e(x)$ and $F_o(x)$.
+   		\item Simplify $F_e(x) + F_o(x)$. How does this relate to $F(x)$?
+   		\item What is $F_e(-2)$? What is $F_o(-2)$? How doe they relate to $F(-2)$?
+   		\item Explain why the previous result should make you wary of infinity, or at least wary of this method of decomposing functions into their odd and even parts.
+   	\end{enumerate}
+\end{Exercise}
+
+\begin{Answer}[ref={1a4}]
+
+\end{Answer}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -201,8 +220,8 @@ A polynomial $f$ has the general form $f(x)=a_0+a_1 x + a_2 x^2 + \ldots +a_{n-1
 
 
 \section{Intermediate Value Theorem}
-\begin{Exercise}[title={Degree 3 Polynomial with Real Roots}, difficulty=1, label=2d1]
-Let $f(x)=(x-a)(x-b)+(x-b)(x-c)+(x-a)(x-c)$ where $a,b,c$ are distinct real numbers. Prove that $f$ must have 3 real distinct zeroes.
+\begin{Exercise}[title={A Polynomial with Real Roots}, difficulty=1, label=2d1]
+Let $f(x)=(x-a)(x-b)+(x-b)(x-c)+(x-a)(x-c)$ where $a,b,c$ are distinct real numbers. Prove that $f$ must have 2 real distinct zeroes.
 \hfill \emph{solution} \refAnswer{2d1}
 
 \end{Exercise}
@@ -537,25 +556,25 @@ Foraging animals, whose food is arranged in clumps must make a decision about ho
 				\item What is the same and what is different in the two following foraging strategies?\\
 					\begin{figure}[H]
 						\center
-						\includegraphics[scale=.5]{b.png}
+						\includegraphics[scale=.5]{figs/b.png}
 					\end{figure}
 			\end{enumerate}
 		\item Our main goal then is to model an animal's foraging behavior in choosing \underline{\hspace{4cm}} given a certain density of food patches (time between patches), and richness of food patches (ie.energy gathering profile of a patch) so that it will maximize the food it collects in a given time.
 	\begin{enumerate}
 		\item Here we have varied the density of the food patches while keeping each patch's food gathering profile the same. For which situation will the animal stay longer in one food patch? Why?
 		\begin{figure}[H]
-			\centering \includegraphics[scale=.55]{c.png}
+			\centering \includegraphics[scale=.55]{figs/c.png}
 		\end{figure}
 		\item Here we have varied the food gathering profile of each patch, while keeping the density the same. For which situation will the animal stay onlger in one food patch? Why?
 		\begin{figure}[H]
-			\centering \includegraphics[scale=.55]{d.png}
+			\centering \includegraphics[scale=.55]{figs/d.png}
 		\end{figure}
 	\end{enumerate}
 \item Let's get more familiar with these ideas with some concrete models of bees foraging for pollen.
 	\begin{enumerate}
 		\item First, let's look at things graphically. Given the travel distance of 3 seconds and the food gathering profile given in the figure below, how much pollen is gathered over 12 seconds, if the bee stays on each flower 1 second versus 3 seconds. 
 		\begin{figure}[H]
-			\centering \includegraphics[scale=.75]{e.png}
+			\centering \includegraphics[scale=.75]{figs/e.png}
 		\end{figure}
 	\item Assuming the food gathering profile is given by $f(t)=\sqrt{t}$, and a travel time of 3 seconds, let's look at the effect of various foraging times (time spent on a flower) on total collected pollen as well as average rate of pollen collected. Fill out the following table.\\[.5cm]
 		\begin{tabular}{c|c|c|c}
@@ -596,11 +615,11 @@ Foraging animals, whose food is arranged in clumps must make a decision about ho
 \item First we can look at a general picture of the situation. In the figure below both venus and the earth are orbiting the sun in a counterclockwise direction.
 
 	\begin{figure}[H]
-		\center \includegraphics[scale=.45]{earthvenus.png}
+		\center \includegraphics[scale=.45]{figs/earthvenus.png}
 	\end{figure}
 \item Second, it will be helpful to come up with the fraction of Venus that is illuminated as seen from earth for different angles $\theta$. Call that $P(\theta)$. We can do this by looking at the picture below and asking what portion of the diameter $\overline{FG}$ appears lit in terms of $\theta$. 
 	\begin{figure}[H]
-		\includegraphics[scale=.4]{ve_a.png} \includegraphics[scale=.55]{ve_b.png}
+		\includegraphics[scale=.4]{figs/ve_a.png} \includegraphics[scale=.55]{figs/ve_b.png}
 	\end{figure}
 	\item Explain why we can use the proportion of the diameter that appears lit to represent the proportion of the sphere that appears lit from the perspective of earth. It may help to visualize where $theta$ is on the figure above and to the right.
 	\item Then make use of the relation that the apparent brightness of an object is inversely proportional to the square of the distance from the source and directly proportional to $P(\theta)$. Let's call apparent brightness $B$ and use $k$ as our constant of proportionality. Write the equation that expresses B in terms of $P(\theta)$ and the distance from the earth to Venus.
@@ -622,7 +641,7 @@ Foraging animals, whose food is arranged in clumps must make a decision about ho
     \section*{Rainbows}
     First to describe light moving from air into a raindrop and back out we need Snell's Law of refraction, which explains why a straight straw looks bent when put into a glass of water. It is based upon the idea that light takes the path of \emph{least} time to go from point $A$ to point $B$, and that light travels at different speeds through different media.
 \begin{figure}[H]
-	\hspace{1cm} \includegraphics[scale=.75]{snell.png}
+	\hspace{1cm} \includegraphics[scale=.75]{figs/snell.png}
 \end{figure}
 
 	The diagram above shows a light ray passing from point $A$ to point $B$. Its path could potentially meet the air-water boundary at any point on the boundary, but it turns out that the light will actually go through the point $P$ that leads to the path of least time.
@@ -640,14 +659,14 @@ Foraging animals, whose food is arranged in clumps must make a decision about ho
 
 We also need to know how light reflects.
 \begin{figure}[H]
-	\hspace{1cm}\includegraphics[scale=.65]{reflect.png}
+	\hspace{1cm}\includegraphics[scale=.65]{figs/reflect.png}
 \end{figure}
 	\begin{enumerate}
 		\item Use the fact that light will `pick' the point $P$ that minimizes the time it takes to go from $A$ to $B$. Mimic the previous steps and show that the path of minimal time implies a relation between the angle of incidence ($\theta_1$) and the angle of reflection ($\theta_2$).
 	\end{enumerate}
 Now we look at a raindrop in cross section.
 \begin{figure}[H]
-	\hspace{1cm}\includegraphics[scale=.35]{raindrop.png}
+	\hspace{1cm}\includegraphics[scale=.35]{figs/raindrop.png}
 \end{figure}
 \begin{enumerate}
 	\item Find the the total angle $\tau$ that the light ray turns as it enters the raindrop, is reflected at point $B$ and then exits the light ray. Your expression for $\tau$ should be in terms of $\alpha$ and $\beta$. 
@@ -743,10 +762,10 @@ Now we look at a raindrop in cross section.
 	\item Moving to 3D, let us first think of the honeycomb cells as two layers of hexagonal prisms of equal heights, and the cell openings are on the top and the bottom. The wall in the middle of the two layers is not planar, and in fact it will take a shape that maintains the volume but minimizes the surface area, thus minimizing the wax required to make the hive. (This is mostly true.)\\
 	\begin{multicols}{2}
 	\begin{figure}[H]
-		\includegraphics[scale=.45]{bees_a.png}
+		\includegraphics[scale=.45]{figs/bees_a.png}
 	\end{figure}
 	\begin{figure}[H]
-		\includegraphics[scale=.45]{bees_b.png}
+		\includegraphics[scale=.45]{figs/bees_b.png}
 	\end{figure}
 	\end{multicols}
 		\begin{enumerate}
@@ -772,7 +791,7 @@ We are given a gallery in the shape of an arbitrary $n$-sided polygon. The probl
 	\item  Notice for some polygons this problem is trivial, for instance how many guards do you need to watch a convex regular hexagon?
 	\item However, other polygons can be a little more difficult to visualize. Try to find the minimum number of guards for the following 15-gon.
 		\begin{figure}[H]
-			\hspace{1cm} \includegraphics[scale=.3]{gall_a.png}
+			\hspace{1cm} \includegraphics[scale=.3]{figs/gall_a.png}
 		\end{figure}
 	\item Do you have a guess as to the minimum number of guards required to handle any $n$-gon.
 		\end{enumerate}
@@ -815,17 +834,114 @@ Now we will prove that for any $n$-gon, $\lfloor n/3 \rfloor$ guards will always
 	\item Explain why this gives the inequality $I_{2n+1} \leq I_{2n} \leq I_{2n-1}$
 	\item Show that $\lim\limits_{n \to \infty} \dfrac{I_{2n}}{I_{2n+1}} =1$
 	\item Show this gives a way to calculate $\dfrac{\pi}{2}$ as an infinite product. 
+	\item In a spreadsheet calculate the partial products of this infinite product as rows in a table. For each partial product of $n$ terms, calculate its percent error with the actual value of $\pi$ (at least to 10 decimlas).  Then using linearization determine the relationship between the number of terms $n$ in your partial product and the absolute value of the percent error of your partial product with $n$ terms. Does this infinite product converge to $\pi$ quickly or slowly? Explain.
 	\end{enumerate}
 
 \newpage	    
     \section*{Predicting Peak Oil}
-    
+    \begin{enumerate}
+	
+	\item First let's look at our model and make sense of it using what we already know about the logistic model.
+		\begin{enumerate}
+			\item Let $P(t)$ be the total amount of oil the U.S. has extracted at time $t$ in years. Then let us assume the function can be modeled by the differential equation: $\dfrac{dP}{dt}=kP\left(1-\dfrac{P}{L}\right)$. Give a sketch with two possible solutions curves on a $P$ vs. $t$ axes, clearly labeling any asymptotes.
+			\item Give a sketch of $\dfrac{dP}{dt}$ vs $P$. Where are its zeroes, and what does that correspond to for the differential equation? Using this graph, make an argument as to the presence and value of any points of inflections for possible solution curves.
+			\item Assuming the solution curve has y-int between 0 and $L/2$, what is the maximal rate of increase of solution curve $P(t)$, in terms of $k$ and $L$?
+			\item Give a sketch of $\dfrac{1}{P}\dfrac{dP}{dt}$ vs. $P$. Label any attributes of the curve you can determine in terms of $k$ or $L$.
+			\item If we now are able to collect values for $P$ at various years and we assume $P$ fits a logistic model, what then can we conclude about the plot of $\dfrac{1}{P}\dfrac{dP}{dt}$ vs $P$? How does this data help to find a specific solution curve for $P(t)$?
+\end{enumerate}
+\newpage
+
+	\item Now onto some actual data. 
+	\begin{enumerate}
+	\item On the worksheet labeled US oil, use excel formulas to transform the Oil production from an annual number in thousands of barrels to a cumulative number in billions of barrels.
+	\item In the next column give an approximate for $\dfrac{dP}{dt}$. It's fine to just use secant approximation.
+	\item Transfer the data from 1931 to present into the US oil worksheet tab. From there use the ideas we developed in question 1, and the linear least squares regression, restricted to 1931-1950) to find values for the parameters of the logistic model. (use time as your x-axis instead of year.)
+	\item Peak oil production ($P^*$) is the point in time where $\dfrac{dP}{dt}$ is a maximum. What is the value of $P^*$ that corresponds to peak oil?
+	\item What is the rate of oil production that correspond to the model's peak oil prediction?
+	\item What year does the model predict for peak oil production in the US? (first, make use of the the fact that peak oil $P^*$ can be expressed in terms of $L$ and keep in mind the need to convert from time to year).
+	\item Give the solution curve that we have modeled from the data that describes $P(t)$ with t as time.
+	\end{enumerate}	
+\item Lastly we can now compare the model with actual data.
+	\begin{enumerate}
+		\item Generate the values of $P$ predicted by your solution curve from question 2, for the years 1931 to 2020.
+		\item Plot both your predicted $P$ and the actual values of $P$ on the same axes as scatterplots. What do you see of interest? 
+		\item Plot both your predicted $\dfrac{dP}{dt}$ vs $P$ with the actual $\dfrac{dP}{dt}$. What do you see of interest?
+		\item This analysis was done by M. King Hubbert in 1956. He predicted peak oil some time between 1965-1970. What is somewhat remarkable is he only used this analysis to solve for $k$, instead preferring to rely on geologists' best guesses for $L$. Where does the actual data differ dramatically from the pattern established by the model? What events may have had an influence on oil production in the US to account for these deviations?
+\end{enumerate}	
+\item Share an observation about the activity. This could be a summary in your own words of what we did, it could be a flaw in the model, it could be something you noticed that you feel is essential to understand the process.	 
+\end{enumerate}
 \newpage	    
     \section*{SIR: A Model for the Spread of Infectious Disease}
-
+\begin{enumerate}
+	
+	\item First let's look at our model and make sense of the symbols we will use in the SIR model. Let $S$ be the number of people in the population that are a susceptible to a given disease. $I$ will be the number that are currently infected, and $R$ will be the number who have recovered. We will assume that all infected people are infectious, and that the total population does not change (ie $\dot{S}+\dot{I}+\dot{R}=0$).
+		\begin{enumerate}
+			\item We will assume the only change to the susceptible population is due to infections, and that the rate at which this happens is proportional to the product of the susceptible and infectious populations. Write the differential equation for $\dot{S}$ with $\alpha$ as the constant of proportionality.
+			\item We will assume that the recovered population increases at a rate proportional to the number of infectious people. Write the differential equation for $\dot{R}$ with $\beta$ as the constant of proportionality.
+			\item We will assume that the infectious population increases at the same rate the susceptible population decreases and that it decreases at the rate at which the recovered population is increasing. Write the differential equation for $\dot{I}$.
+		\end{enumerate}	
+	\item Find a trajectory in phase space
+	\begin{enumerate}
+		\item By using the chain rule for $\dfrac{dI}{dt}$ where $I$ is a function of $S$ which is a function of t, write out an expression for $\dfrac{dI}{dS}$.
+		\item Solve the differential equation. Include a picture of the slope field and a solution curve in the first quadrant of an I vs S coordinate system.
+		\item Solve for the constant of integration in terms of $S_0$ and $I_0$, and re-write your solution curve $I(S)$.
+		\item Give a sketch indicating the direction along the solution curve that corresponds to increasing time? How do you know this?
+		\item What is the maximum value of $I$ in terms of $S_0$, $I_0$, $\alpha$, and $\beta$? Analytically, how do you know it is a maximum?
+		
+	\end{enumerate}
+	\item The argument for vaccination and the idea of herd immunity.
+	\begin{enumerate}
+		\item First let's scale our slope field by choosing $\beta = 0.1$ and $\alpha = .4$. Now $S$ and $I$ are expressed as percentages of the total population. You can then choose $I_0=0.02$ and $S_0=0.98$ to represent 2/100 people be infectious, and the rest of the population being susceptible. Adjust the parameters of the slope field in desmos and take a screenshot of a potential solution curve $I(S)$.
+		\item An outbreak occurs when $\dfrac{dI}{dt}>0$. Looking back at our original system of first order differential equations, at what values of $S$ is $\dot{I}>0$? Let $S_c$ be the value of $S$ where $\dfrac{dI}{dt}$ changes from positive to negative.
+		\item What do you notice about all solution curves $I(S)$ when $S< S_c$?
+		\item If $S_0 < S_c$ how would the disease spread among the population?
+		\item Vaccination is one way to lower $S_0$. If 60\% of the population is vaccinated, then $S_0 =0.40$. Using the already given values of $\alpha$ and $\beta$ what percentage of the population do we need to vaccinate to ensure no outbreak? This is typically called herd immunity.
+		\item Assuming the vaccine is only 95\% effective, what percentage of the population needs to be vaccinated to achieve herd immunity.
+		\item The ratio of $\dfrac{\alpha}{\beta}=R_0$ is called the basic reproductive ratio. It represents the average number of secondary cases that arise from an average primary case in a completely susceptible population. What is $R_0$ given our parameter values?
+		\item The measles have an $R_0 = 15$. What percent vaccination is required to achieve herd immunity given the Measles vaccine has 97% efficacy.
+	\end{enumerate} 
+	\item Building $S(t)$, $I(t)$ and $R(t)$ using a spreadsheet and Euler's method.
+		\begin{enumerate}
+			\item Use Euler's methods to calculate the next values for $S$, $I$, and $R$ in columns E, F, G starting in row 8. Remember it is helpful to fix cell references using F4 so that you can drag formulas down.
+			\item Recall in part one you found an expression for the maximum value of I, call it $I_m$. Calculate this maximum value of I using the parameters in the spreadsheet: $\alpha =0.4$, $\beta = 0.1$, $S_0=0.999$, and $I_0=0.001$. Is this the same as the $I_m$ found using Euler's method?
+			\item How can you make Euler's method give a better approximation of the curve $I(t)$? Does this decrease the difference in $I_m$ that you found in part b? Explain, and take any relevant screenshots of your spreadsheet.
+			\item $\beta$ is often thought of as the reciprocal of the infectious period of the disease. So if a certain disease has an infectious period of 5 days, then $\beta =0.2$. This parameter is mostly determined by the particular disease. However, $\alpha$ is parameter we can influence. It is in part a measure of infectiousness of the disease, but it is also a measure of how `well mixed' a population is. Make a conjecture as to the effect of masking and quarantining on the parameter $\alpha$. How does this change the curve of infected over time?
+			\item In your model decrease $\alpha$ to 0.3. What do you observe?
+			
+		\end{enumerate}
+	\item What do you think is most important that the SIR model does not capture? Explain why you think it is important and how you might incorporate it into the model.
+\end{enumerate}
 \newpage	    
     \section*{Modeling Air Resistance}
-
+\begin{quote}
+Aristotle says that a hundred pound ball falling from a height of a hundred braccia [arm lengths] hits the ground before a one pound ball has fallen one braccio. I say they arrive at the same time. You find, on making the test, that the larger ball beats the smaller one by two inches. Now, behind those two inches you want to hide Aristotle's ninety-nine braccia and speaking only of my tiny error, remain silent about his enormous mistake.
+\end{quote}
+The above quote is from Galileo after conducting the experiment of dropping two weights from the top of the tower of Pisa. His idea that falling objects accelerate at the same rate was criticized on the basis that the heavier object hit the ground before the lighter one. Galileo did note that this was most likely due to the effect of air resistance. We will take a simple model of air resistance and try to calculate how much sooner the heavier weight hits the ground. We will work in standard metric units and assume the tower is 56 meters high.
+\begin{enumerate}
+	\item First let's derive our models of the velocity of a falling object assuming air resistance is proportional to velocity, or to velocity squared.
+		\begin{enumerate}
+			\item If we assume air resistance and gravity are the only two forces acting on the ball, we can write that $m \dot{v}=mg-kv$. Solve this differential equation using separation of variables. Assume $v_0=0$.
+			\item What is the $\lim\limits_{t\to \infty} v(t)$? What is the physical interpretation of this expression?
+			\item Use Desmos to generate a picture of the slope field generated by the above differential equations and a solution curve given $k=0.08$ and $m=1$.
+			\item If you ignore air resistance, how long will it take an object to fall 56 meters (approximately the height of the tower)?
+			\item Using the solution curve you generated in part c, how long will it take your 1kg object to fall the 56 meters? (hint: change in position is given by the integral of the velocity curve.) Include a screen shot of your desmos calculation.
+			\item Double the mass of the object. How long does it take now to fall 56 meters? Does this corroborate Galileo's observation? Again include a screenshot of your desmos calculation.
+			\item Just by looking at the differential equation, what would you expect to happen if you reduced the mass to 0.5 kg? How long does it now take to travel 56 meters?
+		\end{enumerate}
+		\newpage
+	\item Let us now assume that air resistance is proportional to velocity squared.
+		\begin{enumerate}
+		\item Write the new differential equation, but use a different constant of proportionality.
+		\item Solve the differential equation.
+		\item What is the equlibrium solution for this differential equation? If you wanted both models to have the same equilibrium solution, what should be the relationship between constants?
+		\item What is the specific solution curve given a mass of 1 kg, and a constant that results in the same equilibrium solution from the previous model.
+		\item How long does it take this object to travel 56 meters? Include a screenshot of the desmos calculation.
+		\item As you double and halve the mass what do you observe about the time to travel 56 meters? Include screen shots.
+		\item How do the two models compare? Observations? Conjectures?
+		
+		\end{enumerate}
+		\item not finished \ldots [here there will be a data component I just need to actually gather some data]
+\end{enumerate}
 \newpage	    
     \section*{A Model for Combat}
 	[Still working on it. Based upon Lanchester Laws]
@@ -838,6 +954,10 @@ Now we will prove that for any $n$-gon, $\lfloor n/3 \rfloor$ guards will always
 	[The idea here is to show how one way to extend the factorial function to all real numbers involves integrating the logarithm from 0 to 1. Note it gives a value for gamme(1/2) I think as $\sqrt{\pi}$. 
 	
 	\newpage	    
+	
+	\section*{A Derivation of the Least Squares Regression Line}
+		
+		Given a set of data in two variables ${x_i,y_i}$ you might want to see if there 
 
 %%%%%
 %%%%%
